@@ -1,0 +1,573 @@
+2020-02-29T20:48:22+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-cron.php(44): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T20:48:22+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#7 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#8 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T20:48:23+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#7 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#8 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T20:49:19+00:00 CRITICAL syntax error, unexpected ')' w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T20:49:39+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-cron.php(44): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T20:49:40+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#7 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#8 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T20:50:11+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#7 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#8 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T20:50:14+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#7 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#8 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T20:50:31+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-admin\admin.php(34): require_once('D:\\laragon\\www\\...')
+#7 D:\laragon\www\maja\wp-admin\index.php(10): require_once('D:\\laragon\\www\\...')
+#8 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T20:52:46+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_partial() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:18
+Stack trace:
+#0 D:\laragon\www\maja\wp-settings.php(497): include()
+#1 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\maja\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 18
+
+2020-02-29T20:53:23+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_partial() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:18
+Stack trace:
+#0 D:\laragon\www\maja\wp-settings.php(497): include()
+#1 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\maja\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 18
+
+2020-02-29T20:53:26+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_partial() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:18
+Stack trace:
+#0 D:\laragon\www\maja\wp-settings.php(497): include()
+#1 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\maja\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 18
+
+2020-02-29T20:53:37+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_partial() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:18
+Stack trace:
+#0 D:\laragon\www\maja\wp-settings.php(497): include()
+#1 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\maja\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 18
+
+2020-02-29T20:54:16+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_partial() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:18
+Stack trace:
+#0 D:\laragon\www\maja\wp-settings.php(497): include()
+#1 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\maja\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 18
+
+2020-02-29T20:54:19+00:00 CRITICAL Uncaught Error: Call to undefined function get_field_partial() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:18
+Stack trace:
+#0 D:\laragon\www\maja\wp-settings.php(497): include()
+#1 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\maja\wp-admin\admin-ajax.php(22): require_once('D:\\laragon\\www\\...')
+#4 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 18
+
+2020-02-29T20:58:04+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-cron.php(44): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T20:58:04+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#7 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#8 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T20:58:04+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-admin\admin-ajax.php(22): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T20:58:05+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-admin\admin-ajax.php(22): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T20:58:08+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#7 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#8 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T20:59:23+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-cron.php(44): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T20:59:23+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#7 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#8 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T21:00:05+00:00 CRITICAL require(): Failed opening required 'vendor/acf-builder/autoload.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 9
+
+2020-02-29T21:00:05+00:00 CRITICAL require(): Failed opening required 'vendor/acf-builder/autoload.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 9
+
+2020-02-29T21:00:07+00:00 CRITICAL require(): Failed opening required 'vendor/acf-builder/autoload.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 9
+
+2020-02-29T21:00:20+00:00 CRITICAL require(): Failed opening required 'vendor/acf-builder/autoload.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 9
+
+2020-02-29T21:00:22+00:00 CRITICAL require(): Failed opening required 'vendor/acf-builder/autoload.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 9
+
+2020-02-29T21:00:27+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-cron.php(44): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T21:00:27+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#7 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#8 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T21:02:01+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-cron.php(44): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T21:02:01+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-admin\admin-ajax.php(22): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T21:02:21+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-admin\admin-ajax.php(22): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T21:04:02+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-cron.php(44): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T21:04:02+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-admin\admin-ajax.php(22): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T21:04:21+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-admin\admin-ajax.php(22): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T21:04:39+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-admin\admin-ajax.php(22): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T21:04:39+00:00 CRITICAL Uncaught Error: Call to undefined function collect() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php:13
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\class-wp-hook.php(288): {closure}('')
+#1 D:\laragon\www\maja\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\maja\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\laragon\www\maja\wp-settings.php(523): do_action('init')
+#4 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\maja\wp-admin\admin-ajax.php(22): require_once('D:\\laragon\\www\\...')
+#7 {main}
+  thrown w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 13
+
+2020-02-29T21:06:39+00:00 CRITICAL require(): Failed opening required 'vendor/stoutlogic/acf-builder/autoload.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 9
+
+2020-02-29T21:06:40+00:00 CRITICAL require(): Failed opening required 'vendor/stoutlogic/acf-builder/autoload.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 9
+
+2020-02-29T21:38:09+00:00 CRITICAL syntax error, unexpected ')' w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 21
+
+2020-02-29T21:38:40+00:00 CRITICAL syntax error, unexpected ')' w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 21
+
+2020-02-29T21:49:56+00:00 CRITICAL Uncaught StoutLogic\AcfBuilder\FieldNameCollisionException: Field Name: `podgląd_message` already exists. in D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php:184
+Stack trace:
+#0 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php(171): StoutLogic\AcfBuilder\FieldManager->validateFieldName(Object(StoutLogic\AcfBuilder\FieldBuilder))
+#1 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php(85): StoutLogic\AcfBuilder\FieldManager->validateField(Object(StoutLogic\AcfBuilder\FieldBuilder))
+#2 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php(48): StoutLogic\AcfBuilder\FieldManager->insertFields(Array, 7)
+#3 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldsBuilder.php(205): StoutLogic\AcfBuilder\FieldManager->pushField(Object(StoutLogic\AcfBuilder\FieldB w D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php w linii 184
+
+2020-02-29T21:50:01+00:00 CRITICAL Uncaught StoutLogic\AcfBuilder\FieldNameCollisionException: Field Name: `podgląd_message` already exists. in D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php:184
+Stack trace:
+#0 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php(171): StoutLogic\AcfBuilder\FieldManager->validateFieldName(Object(StoutLogic\AcfBuilder\FieldBuilder))
+#1 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php(85): StoutLogic\AcfBuilder\FieldManager->validateField(Object(StoutLogic\AcfBuilder\FieldBuilder))
+#2 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php(48): StoutLogic\AcfBuilder\FieldManager->insertFields(Array, 7)
+#3 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldsBuilder.php(205): StoutLogic\AcfBuilder\FieldManager->pushField(Object(StoutLogic\AcfBuilder\FieldB w D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php w linii 184
+
+2020-02-29T21:50:02+00:00 CRITICAL Uncaught StoutLogic\AcfBuilder\FieldNameCollisionException: Field Name: `podgląd_message` already exists. in D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php:184
+Stack trace:
+#0 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php(171): StoutLogic\AcfBuilder\FieldManager->validateFieldName(Object(StoutLogic\AcfBuilder\FieldBuilder))
+#1 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php(85): StoutLogic\AcfBuilder\FieldManager->validateField(Object(StoutLogic\AcfBuilder\FieldBuilder))
+#2 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php(48): StoutLogic\AcfBuilder\FieldManager->insertFields(Array, 7)
+#3 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldsBuilder.php(205): StoutLogic\AcfBuilder\FieldManager->pushField(Object(StoutLogic\AcfBuilder\FieldB w D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php w linii 184
+
+2020-02-29T21:50:03+00:00 CRITICAL Uncaught StoutLogic\AcfBuilder\FieldNameCollisionException: Field Name: `podgląd_message` already exists. in D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php:184
+Stack trace:
+#0 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php(171): StoutLogic\AcfBuilder\FieldManager->validateFieldName(Object(StoutLogic\AcfBuilder\FieldBuilder))
+#1 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php(85): StoutLogic\AcfBuilder\FieldManager->validateField(Object(StoutLogic\AcfBuilder\FieldBuilder))
+#2 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php(48): StoutLogic\AcfBuilder\FieldManager->insertFields(Array, 7)
+#3 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldsBuilder.php(205): StoutLogic\AcfBuilder\FieldManager->pushField(Object(StoutLogic\AcfBuilder\FieldB w D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\FieldManager.php w linii 184
+
+2020-02-29T21:55:14+00:00 CRITICAL Uncaught Exception: No such function: endMessage in D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php:69
+Stack trace:
+#0 [internal function]: StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#1 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php(66): call_user_func_array(Array, Array)
+#2 [internal function]: StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#3 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php(66): call_user_func_array(Array, Array)
+#4 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ConditionalBuilder.php(119): StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#5 D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php(28): StoutLogic\AcfBuilder\ConditionalBuilder->__call w D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php w linii 69
+
+2020-02-29T21:55:15+00:00 CRITICAL Uncaught Exception: No such function: endMessage in D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php:69
+Stack trace:
+#0 [internal function]: StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#1 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php(66): call_user_func_array(Array, Array)
+#2 [internal function]: StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#3 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php(66): call_user_func_array(Array, Array)
+#4 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ConditionalBuilder.php(119): StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#5 D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php(28): StoutLogic\AcfBuilder\ConditionalBuilder->__call w D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php w linii 69
+
+2020-02-29T21:55:15+00:00 CRITICAL Uncaught Exception: No such function: endMessage in D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php:69
+Stack trace:
+#0 [internal function]: StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#1 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php(66): call_user_func_array(Array, Array)
+#2 [internal function]: StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#3 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php(66): call_user_func_array(Array, Array)
+#4 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ConditionalBuilder.php(119): StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#5 D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php(28): StoutLogic\AcfBuilder\ConditionalBuilder->__call w D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php w linii 69
+
+2020-02-29T21:55:16+00:00 CRITICAL Uncaught Exception: No such function: endMessage in D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php:69
+Stack trace:
+#0 [internal function]: StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#1 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php(66): call_user_func_array(Array, Array)
+#2 [internal function]: StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#3 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php(66): call_user_func_array(Array, Array)
+#4 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ConditionalBuilder.php(119): StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#5 D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php(28): StoutLogic\AcfBuilder\ConditionalBuilder->__call w D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php w linii 69
+
+2020-02-29T21:55:17+00:00 CRITICAL Uncaught Exception: No such function: endMessage in D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php:69
+Stack trace:
+#0 [internal function]: StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#1 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php(66): call_user_func_array(Array, Array)
+#2 [internal function]: StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#3 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php(66): call_user_func_array(Array, Array)
+#4 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ConditionalBuilder.php(119): StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#5 D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php(28): StoutLogic\AcfBuilder\ConditionalBuilder->__call w D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php w linii 69
+
+2020-02-29T21:55:18+00:00 CRITICAL Uncaught Exception: No such function: endMessage in D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php:69
+Stack trace:
+#0 [internal function]: StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#1 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php(66): call_user_func_array(Array, Array)
+#2 [internal function]: StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#3 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php(66): call_user_func_array(Array, Array)
+#4 D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ConditionalBuilder.php(119): StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('endMessage', Array)
+#5 D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php(28): StoutLogic\AcfBuilder\ConditionalBuilder->__call w D:\laragon\www\maja\wp-content\themes\majalaptos-child\vendor\stoutlogic\acf-builder\src\ParentDelegationBuilder.php w linii 69
+
+2020-02-29T22:03:33+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:03:36+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:03:40+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:03:41+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:03:45+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:03:51+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:04:41+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:05:42+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:05:52+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:06:41+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:07:42+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:07:52+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:08:41+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:09:42+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:09:52+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:10:41+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:11:42+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:11:52+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:12:42+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:13:42+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:13:57+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:14:02+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:14:04+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:14:05+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:35:47+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:35:52+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 11
+
+2020-02-29T22:36:06+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 10
+
+2020-02-29T22:36:14+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 10
+
+2020-02-29T22:36:18+00:00 CRITICAL require_once(): Failed opening required 'inc/acf.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php w linii 10
+
+2020-02-29T22:36:31+00:00 CRITICAL require_once(): Failed opening required '../vendor/stoutlogic/acf-builder/autoload.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\inc\acf.php w linii 2
+
+2020-02-29T22:36:33+00:00 CRITICAL require_once(): Failed opening required '../vendor/stoutlogic/acf-builder/autoload.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\inc\acf.php w linii 2
+
+2020-02-29T22:36:35+00:00 CRITICAL require_once(): Failed opening required '../vendor/stoutlogic/acf-builder/autoload.php' (include_path='.;D:/laragon/etc/php/pear') w D:\laragon\www\maja\wp-content\themes\majalaptos-child\inc\acf.php w linii 2
+
+2020-02-29T22:36:47+00:00 CRITICAL Uncaught Error: Class 'StoutLogic\AcfBuilder\FieldsBuilder' not found in D:\laragon\www\maja\wp-content\themes\majalaptos-child\inc\acf.php:3
+Stack trace:
+#0 D:\laragon\www\maja\wp-content\themes\majalaptos-child\functions.php(10): require_once()
+#1 D:\laragon\www\maja\wp-settings.php(497): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\maja\wp-config.php(88): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\maja\wp-load.php(37): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\maja\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#6 {main}
+
+Next Exception: Class 'StoutLogic\AcfBuilder\FieldsBuilder' not found in D:\laragon\www\maja\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(Error))
+#1 {main}
+  thrown w D:\laragon\www\maja\wp-content\plugins\query-monitor\collectors\php_errors.php w linii 82
+
+2020-02-29T23:10:08+00:00 CRITICAL Object of class WP_Post could not be converted to string w D:\laragon\www\maja\wp-content\themes\majalaptos-child\single-product.php w linii 64
+
+2020-02-29T23:10:18+00:00 CRITICAL Object of class WP_Post could not be converted to string w D:\laragon\www\maja\wp-content\themes\majalaptos-child\single-product.php w linii 64
+
+2020-02-29T23:11:13+00:00 CRITICAL Object of class WP_Post could not be converted to string w D:\laragon\www\maja\wp-content\themes\majalaptos-child\single-product.php w linii 64
+
+2020-02-29T23:11:54+00:00 CRITICAL Object of class WP_Post could not be converted to string w D:\laragon\www\maja\wp-content\themes\majalaptos-child\single-product.php w linii 64
+
+2020-02-29T23:12:09+00:00 CRITICAL Object of class WP_Post could not be converted to string w D:\laragon\www\maja\wp-content\themes\majalaptos-child\single-product.php w linii 64
+
+2020-02-29T23:27:34+00:00 CRITICAL Uncaught ParseError: syntax error, unexpected ';', expecting ',' or ')' in D:\laragon\www\maja\wp-content\themes\majalaptos-child\single-product.php:98
+Stack trace:
+#0 D:\laragon\www\maja\wp-blog-header.php(19): require_once()
+#1 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#2 {main}
+
+Next Exception: syntax error, unexpected ';', expecting ',' or ')' in D:\laragon\www\maja\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(ParseError))
+#1 {main}
+  thrown w D:\laragon\www\maja\wp-content\plugins\query-monitor\collectors\php_errors.php w linii 82
+

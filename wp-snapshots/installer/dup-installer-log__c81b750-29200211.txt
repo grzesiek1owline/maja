@@ -1,0 +1,726 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:04:30
+* VERSION: 1.3.28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.12-dh25                           |7.2.19
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2020-02-29 20:02:11
+WP VERSION__________: 5.2.5
+DUP VERSION_________: 1.3.28
+DB__________________: 10.1.35
+DB TABLES___________: 46
+DB ROWS_____________: 4,839
+DB FILE SIZE________: 7.7MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.19 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.35 (Win64) OpenSSL/1.1.1b PHP/7.2.19
+DOC ROOT____________: "D:/laragon/www/maja"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://maja.local/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20200131_poduszkidekoracyjnemajalapto_c81b7507fdab5a2f7852_20200229200211_archive.zip"
+SIZE________________: 1.77MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' backed-up to .htaccess-200229200430-5e5ac3ce0f90d-duplicator.bak
+- PASS: Existing Apache '.htaccess' was removed
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 116
+    [filename] => D:\laragon\www\maja\20200131_poduszkidekoracyjnemajalapto_c81b7507fdab5a2f7852_20200229200211_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2020-02-29 20:04:31
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 08:04:31 - RUNTIME: 1.3247 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:04:50
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.24 -- Build Server: 10.1.35
+FILE SIZE:	dup-database__c81b750-29200211.sql (6.67MB)
+TIMEOUT:	5000
+MAXPACK:	536870912
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[D:/laragon/www/maja/dup-installer/dup-installer-data__c81b750-29200211.sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.24] is less than the build version [10.1.35].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:D:\laragon\www\maja\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:386]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	4899
+
+wp_commentmeta: (0)
+wp_comments: (17)
+wp_duplicator_packages: (0)
+wp_freshmail_forms: (1)
+wp_freshmail_stats: (0)
+wp_imagelinks: (1)
+wp_links: (0)
+wp_litespeed_img_optm: (0)
+wp_litespeed_optimizer: (0)
+wp_options: (392)
+wp_postmeta: (2277)
+wp_posts: (1090)
+wp_revslider_css: (109)
+wp_revslider_layer_animations: (0)
+wp_revslider_navigations: (0)
+wp_revslider_sliders: (5)
+wp_revslider_slides: (10)
+wp_revslider_static_slides: (0)
+wp_sbi_instagram_feeds_posts: (4)
+wp_sbi_instagram_posts: (4)
+wp_term_relationships: (214)
+wp_term_taxonomy: (30)
+wp_termmeta: (17)
+wp_terms: (30)
+wp_usermeta: (144)
+wp_users: (2)
+wp_wc_download_log: (0)
+wp_wc_product_meta_lookup: (36)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (78)
+wp_woocommerce_order_items: (10)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (1)
+wp_woocommerce_shipping_zone_methods: (1)
+wp_woocommerce_shipping_zones: (1)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_yoast_seo_links: (32)
+wp_yoast_seo_meta: (282)
+Removed '59' cache/transient rows
+
+INSERT DATA RUNTIME: 14.6132 sec.
+STEP-2 COMPLETE @ 08:05:05 - RUNTIME: 14.6417 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:05:58
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Poduszki Dekoracyjne Maja Laptos"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html"
+path_new______________: "D:/laragon/www/maja"
+siteurl_______________: "http://maja.local"
+url_old_______________: "http://maja.imaggo-work.pl"
+url_new_______________: "http://maja.local"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "maja"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: true
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_freshmail_forms"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_freshmail_stats"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_imagelinks"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_litespeed_img_optm"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_litespeed_optimizer"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   392][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  2277][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  1090][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_sbi_instagram_feeds_posts"____________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_sbi_instagram_posts"__________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   214][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   144][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    36][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:    78][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+
+EVALUATE TABLE: "wp_yoast_seo_meta"_______________________________[ROWS:   282][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/klient.dhosting.pl/imaggo/maja.imaggo-work.pl/public_html" => "D:/laragon/www/maja"
+	SEARCH  2:"\/home\/klient.dhosting.pl\/imaggo\/maja.imaggo-work.pl\/public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  3:"%2Fhome%2Fklient.dhosting.pl%2Fimaggo%2Fmaja.imaggo-work.pl%2Fpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  4:"\home\klient.dhosting.pl\imaggo\maja.imaggo-work.pl\public_html" => "D:/laragon/www/maja"
+	SEARCH  5:"\\home\\klient.dhosting.pl\\imaggo\\maja.imaggo-work.pl\\public_html" => "D:\/laragon\/www\/maja"
+	SEARCH  6:"%5Chome%5Cklient.dhosting.pl%5Cimaggo%5Cmaja.imaggo-work.pl%5Cpublic_html" => "D%3A%2Flaragon%2Fwww%2Fmaja"
+	SEARCH  7:"//maja.imaggo-work.pl" ===========================> "//maja.local"
+	SEARCH  8:"\/\/maja.imaggo-work.pl" =========================> "\/\/maja.local"
+	SEARCH  9:"%2F%2Fmaja.imaggo-work.pl" =======================> "%2F%2Fmaja.local"
+	SEARCH 10:"https://maja.local" ==============================> "http://maja.local"
+	SEARCH 11:"https:\/\/maja.local" ============================> "http:\/\/maja.local"
+	SEARCH 12:"https%3A%2F%2Fmaja.local" ========================> "http%3A%2F%2Fmaja.local"
+--------------------------------------
+SCANNED:	Tables:46 	|	 Rows:4791 	|	 Cells:40237 
+UPDATED:	Tables:8 	|	 Rows:1121 	|	 Cells:1421 
+ERRORS:		0 
+RUNTIME:	0.508800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""maja""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE WP_CACHE true
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__c81b750-29200211' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+deactivate js_composer/js_composer.php
+Plugin(s) listed here are deactivated: js_composer/js_composer.php
+Plugin(s) reactivated after installation: js_composer/js_composer.php
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:05:59 - RUNTIME: 0.5600 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  WPBakery Page Builder
+	SECTIONS: general
+	LONG MSG: This plugin is deactivated automatically, because it requires a reacivation to work properly.  <b>Please reactivate from the WordPress admin panel after logging in.</b> This will re-enable your site's frontend.
+
+====================================

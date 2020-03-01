@@ -1,0 +1,12 @@
+{
+    "name": "grzesiek/majalaptos-child",
+    "authors": [
+        {
+            "name": "grzesiek1owline",
+            "email": "39383343+grzesiek1owline@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "stoutlogic/acf-builder": "^1.9"
+    }
+}

@@ -1,0 +1,1740 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: DT WooCommerce Page Builder\n"
+"POT-Creation-Date: 2019-04-18 19:13+0700\n"
+"PO-Revision-Date: 2019-04-18 19:13+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/js_composer/admin.php:14 includes/js_composer/admin.php:443
+msgid "WooCommerce Page Builder"
+msgstr ""
+
+#: includes/js_composer/admin.php:73
+msgid "Settings"
+msgstr ""
+
+#: includes/js_composer/admin.php:86
+msgid "SAVE CHANGES"
+msgstr ""
+
+#: includes/js_composer/admin.php:92
+msgid "General"
+msgstr ""
+
+#: includes/js_composer/admin.php:93
+msgid "Single Product"
+msgstr ""
+
+#: includes/js_composer/admin.php:94
+msgid "Product Archive Pages"
+msgstr ""
+
+#: includes/js_composer/admin.php:95
+msgid "Checkout"
+msgstr ""
+
+#: includes/js_composer/admin.php:96
+msgid "Thank You"
+msgstr ""
+
+#: includes/js_composer/admin.php:97
+msgid "My Account"
+msgstr ""
+
+#: includes/js_composer/admin.php:99
+msgid "Support"
+msgstr ""
+
+#: includes/js_composer/admin.php:110
+msgid "Online Documentation"
+msgstr ""
+
+#: includes/js_composer/admin.php:111
+msgid "Video Tutorials"
+msgstr ""
+
+#: includes/js_composer/admin.php:121 includes/js_composer/admin.php:166
+msgid "Template Type"
+msgstr ""
+
+#: includes/js_composer/admin.php:124 includes/js_composer/admin.php:169
+#: includes/js_composer/admin.php:481
+msgid "Default"
+msgstr ""
+
+#: includes/js_composer/admin.php:125 includes/js_composer/admin.php:170
+msgid "Page"
+msgstr ""
+
+#: includes/js_composer/admin.php:127 includes/js_composer/admin.php:172
+msgid ""
+"Select the type of template you want to work on. (Hit SAVE CHANGES to apply)"
+msgstr ""
+
+#: includes/js_composer/admin.php:131
+msgid "Single Product Template Default"
+msgstr ""
+
+#: includes/js_composer/admin.php:139 includes/js_composer/admin.php:528
+#: includes/js_composer/admin.php:578
+msgid "Select a product template&hellip;"
+msgstr ""
+
+#: includes/js_composer/admin.php:140 includes/js_composer/admin.php:186
+#: includes/js_composer/admin.php:213 includes/js_composer/admin.php:242
+#: includes/js_composer/admin.php:276 includes/js_composer/admin.php:298
+#: includes/js_composer/admin.php:329 includes/js_composer/admin.php:358
+#: includes/js_composer/admin.php:384
+msgid "-- None (Use theme layout) --"
+msgstr ""
+
+#: includes/js_composer/admin.php:148
+msgid "Select Product Template default for all Products."
+msgstr ""
+
+#: includes/js_composer/admin.php:150 includes/js_composer/admin.php:195
+#: includes/js_composer/admin.php:225 includes/js_composer/admin.php:254
+#: includes/js_composer/admin.php:285 includes/js_composer/admin.php:308
+#: includes/js_composer/admin.php:338 includes/js_composer/admin.php:370
+#: includes/js_composer/admin.php:394
+#: includes/js_composer/vc-editor/vc-archive-editor.php:74
+#: includes/js_composer/vc-editor/vc-cart-editor.php:74
+#: includes/js_composer/vc-editor/vc-checkout-editor.php:74
+#: includes/js_composer/vc-editor/vc-myaccount-editor.php:74
+#: includes/js_composer/vc-editor/vc-product-tpl-editor.php:104
+#: includes/js_composer/vc-editor/vc-thankyou-editor.php:74
+msgid "Edit"
+msgstr ""
+
+#: includes/js_composer/admin.php:177
+msgid "Shop Page"
+msgstr ""
+
+#: includes/js_composer/admin.php:185
+msgid "Select Shop template&hellip;"
+msgstr ""
+
+#: includes/js_composer/admin.php:193
+msgid "Custom Shop Page"
+msgstr ""
+
+#: includes/js_composer/admin.php:204
+msgid "Categories Template Default"
+msgstr ""
+
+#: includes/js_composer/admin.php:212 includes/js_composer/admin.php:241
+#: includes/js_composer/admin.php:546 includes/js_composer/admin.php:599
+msgid "Select a category template&hellip;"
+msgstr ""
+
+#: includes/js_composer/admin.php:222
+msgid ""
+"Select Product Archive Template default for Category Page <br/>Or you can go "
+"to the specific category and setting <strong>Category Custom Page</strong> "
+"option for each category. (One Custom Product Archive for one Product "
+"category)"
+msgstr ""
+
+#: includes/js_composer/admin.php:233
+msgid "Tags Template Default"
+msgstr ""
+
+#: includes/js_composer/admin.php:251
+msgid ""
+"Select Product Archive Template default for Product Tag page<br/>Or you can "
+"go to the specific tag and setting <strong>Tag Custom Page</strong> option "
+"for each Tag. (One Custom Product Archive for one Product Tag)"
+msgstr ""
+
+#: includes/js_composer/admin.php:269
+msgid "Cart Page Template"
+msgstr ""
+
+#: includes/js_composer/admin.php:275
+msgid "Select a cart template&hellip;"
+msgstr ""
+
+#: includes/js_composer/admin.php:282
+msgid "Select Cart page custom template."
+msgstr ""
+
+#: includes/js_composer/admin.php:291
+msgid "Checkout Page Template"
+msgstr ""
+
+#: includes/js_composer/admin.php:297
+msgid "Select a checkout template&hellip;"
+msgstr ""
+
+#: includes/js_composer/admin.php:305
+msgid "Select Checkout page custom template."
+msgstr ""
+
+#: includes/js_composer/admin.php:322
+msgid "Thank You Template"
+msgstr ""
+
+#: includes/js_composer/admin.php:328 includes/js_composer/admin.php:480
+msgid "Select a template&hellip;"
+msgstr ""
+
+#: includes/js_composer/admin.php:335
+msgid "Select Thank you custom template."
+msgstr ""
+
+#: includes/js_composer/admin.php:351
+msgid "My Account Before Login Page Template"
+msgstr ""
+
+#: includes/js_composer/admin.php:357 includes/js_composer/admin.php:383
+msgid "Select My Account template&hellip;"
+msgstr ""
+
+#: includes/js_composer/admin.php:367
+msgid ""
+"Custom page before user login. Go to build a custom MyAccount Before login "
+"page, use the elements in the \"Woo MyAccount Before Login\". You can also "
+"add the steps/description how to create an account for this custom page."
+msgstr ""
+
+#: includes/js_composer/admin.php:377
+msgid "My Account Page Template"
+msgstr ""
+
+#: includes/js_composer/admin.php:391
+msgid "Select My Account page custom template."
+msgstr ""
+
+#: includes/js_composer/admin.php:442
+#, php-format
+msgid ""
+"If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr ""
+
+#: includes/js_composer/admin.php:444
+msgid "Thanks :)"
+msgstr ""
+
+#: includes/js_composer/admin.php:454 includes/js_composer/admin.php:521
+#: includes/js_composer/admin.php:570
+msgid "DTWPB Single Product Page"
+msgstr ""
+
+#: includes/js_composer/admin.php:466 includes/js_composer/admin.php:529
+#: includes/js_composer/admin.php:547 includes/js_composer/admin.php:579
+#: includes/js_composer/admin.php:600 includes/js_composer/admin.php:664
+#: includes/js_composer/admin.php:694
+msgid "None"
+msgstr ""
+
+#: includes/js_composer/admin.php:487
+#, php-format
+msgid ""
+"Select a product template. Default is use in %sProduct Template Default%s "
+"setting."
+msgstr ""
+
+#: includes/js_composer/admin.php:535 includes/js_composer/admin.php:585
+#, php-format
+msgid ""
+"Select a product template or %sCreate new%s template. This template will be "
+"applied for all products of the category."
+msgstr ""
+
+#: includes/js_composer/admin.php:539 includes/js_composer/admin.php:591
+msgid "DTWPB Product Archive Page"
+msgstr ""
+
+#: includes/js_composer/admin.php:554
+msgid "Apply Product Archive template for the Child Categories"
+msgstr ""
+
+#: includes/js_composer/admin.php:555
+#, php-format
+msgid "Select Product Archive Template or %sCreate new%s template."
+msgstr ""
+
+#: includes/js_composer/admin.php:606
+#, php-format
+msgid "Select a Product Archive Template or %sCreate new%s template."
+msgstr ""
+
+#: includes/js_composer/admin.php:615
+msgid "Apply Product Archive Template for the Child Categories"
+msgstr ""
+
+#: includes/js_composer/admin.php:656 includes/js_composer/admin.php:685
+msgid "WooCommerce Page Builder Archive Template"
+msgstr ""
+
+#: includes/js_composer/admin.php:663 includes/js_composer/admin.php:693
+msgid "Select a Produc Archive template&hellip;"
+msgstr ""
+
+#: includes/js_composer/admin.php:670 includes/js_composer/admin.php:700
+#, php-format
+msgid ""
+"Select a Produc Archive template for Product Tag page or %sCreate new%s "
+"template."
+msgstr ""
+
+#: includes/js_composer/dt-template-functions.php:123
+msgid ""
+"The order totals have been updated. Please confirm your order by pressing "
+"the \"Place order\" button at the bottom of the page."
+msgstr ""
+
+#: includes/js_composer/dt_js_composer.php:229
+msgid "Back to Order list"
+msgstr ""
+
+#: includes/js_composer/dt_js_composer.php:235
+msgid "Back to Subscriptions list"
+msgstr ""
+
+#: includes/js_composer/vc-class.php:42
+msgid "Apply for field type: dropdown, check, radio"
+msgstr ""
+
+#: includes/js_composer/vc-class.php:59 includes/js_composer/vc-class.php:87
+msgid "Remove"
+msgstr ""
+
+#: includes/js_composer/vc-class.php:68
+msgid "Add"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-archive-editor.php:40
+#: includes/js_composer/vc-editor/vc-cart-editor.php:40
+#: includes/js_composer/vc-editor/vc-checkout-editor.php:40
+#: includes/js_composer/vc-editor/vc-myaccount-editor.php:40
+#: includes/js_composer/vc-editor/vc-product-tpl-editor.php:41
+#: includes/js_composer/vc-editor/vc-thankyou-editor.php:40
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-archive-editor.php:69
+msgid "Product Archive Templates"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-archive-editor.php:70
+msgid "Product Archive Template"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-archive-editor.php:71
+msgctxt "Admin menu name"
+msgid "Product Archive Templates"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-archive-editor.php:72
+msgid "Add New Product Archive Templates"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-archive-editor.php:73
+#: includes/js_composer/vc-editor/vc-cart-editor.php:73
+#: includes/js_composer/vc-editor/vc-checkout-editor.php:73
+#: includes/js_composer/vc-editor/vc-myaccount-editor.php:73
+#: includes/js_composer/vc-editor/vc-thankyou-editor.php:73
+msgid "Add New"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-archive-editor.php:75
+msgid "Edit Category Template"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-archive-editor.php:76
+#: includes/js_composer/vc-editor/vc-cart-editor.php:76
+#: includes/js_composer/vc-editor/vc-checkout-editor.php:76
+#: includes/js_composer/vc-editor/vc-myaccount-editor.php:76
+#: includes/js_composer/vc-editor/vc-thankyou-editor.php:76
+msgid "New"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-archive-editor.php:77
+#: includes/js_composer/vc-editor/vc-archive-editor.php:78
+#: includes/js_composer/vc-editor/vc-cart-editor.php:77
+#: includes/js_composer/vc-editor/vc-cart-editor.php:78
+#: includes/js_composer/vc-editor/vc-checkout-editor.php:77
+#: includes/js_composer/vc-editor/vc-checkout-editor.php:78
+#: includes/js_composer/vc-editor/vc-myaccount-editor.php:77
+#: includes/js_composer/vc-editor/vc-myaccount-editor.php:78
+#: includes/js_composer/vc-editor/vc-thankyou-editor.php:77
+#: includes/js_composer/vc-editor/vc-thankyou-editor.php:78
+msgid "View"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-archive-editor.php:79
+#: includes/js_composer/vc-editor/vc-cart-editor.php:79
+#: includes/js_composer/vc-editor/vc-checkout-editor.php:79
+#: includes/js_composer/vc-editor/vc-myaccount-editor.php:79
+#: includes/js_composer/vc-editor/vc-thankyou-editor.php:79
+msgid "Search Template"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-archive-editor.php:80
+#: includes/js_composer/vc-editor/vc-cart-editor.php:80
+#: includes/js_composer/vc-editor/vc-checkout-editor.php:80
+#: includes/js_composer/vc-editor/vc-myaccount-editor.php:80
+#: includes/js_composer/vc-editor/vc-thankyou-editor.php:80
+msgid "No Templates found"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-archive-editor.php:81
+#: includes/js_composer/vc-editor/vc-cart-editor.php:81
+#: includes/js_composer/vc-editor/vc-checkout-editor.php:81
+#: includes/js_composer/vc-editor/vc-myaccount-editor.php:81
+#: includes/js_composer/vc-editor/vc-thankyou-editor.php:81
+msgid "No Templates found in trash"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-archive-editor.php:82
+#: includes/js_composer/vc-editor/vc-cart-editor.php:82
+#: includes/js_composer/vc-editor/vc-checkout-editor.php:82
+#: includes/js_composer/vc-editor/vc-myaccount-editor.php:82
+#: includes/js_composer/vc-editor/vc-thankyou-editor.php:82
+msgid "Parent Template"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-cart-editor.php:69
+msgid "Cart Templates"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-cart-editor.php:70
+msgid "Cart Template"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-cart-editor.php:71
+msgctxt "Admin menu name"
+msgid "Cart Templates"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-cart-editor.php:72
+#: includes/js_composer/vc-editor/vc-checkout-editor.php:72
+#: includes/js_composer/vc-editor/vc-myaccount-editor.php:72
+#: includes/js_composer/vc-editor/vc-thankyou-editor.php:72
+msgid "Add New Templates"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-cart-editor.php:75
+#: includes/js_composer/vc-editor/vc-checkout-editor.php:75
+#: includes/js_composer/vc-editor/vc-myaccount-editor.php:75
+#: includes/js_composer/vc-editor/vc-thankyou-editor.php:75
+msgid "Edit Template"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-checkout-editor.php:69
+msgid "Checkout Templates"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-checkout-editor.php:70
+msgid "Checkout Template"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-checkout-editor.php:71
+msgctxt "Admin menu name"
+msgid "Checkout Templates"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-myaccount-editor.php:69
+msgid "My Account Templates"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-myaccount-editor.php:70
+msgid "My Account Template"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-myaccount-editor.php:71
+msgctxt "Admin menu name"
+msgid "My Account Templates"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-product-tpl-editor.php:99
+msgid "Product Templates"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-product-tpl-editor.php:100
+msgid "Product Template"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-product-tpl-editor.php:101
+msgctxt "Admin menu name"
+msgid "Product Templates"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-product-tpl-editor.php:102
+#: includes/js_composer/vc-editor/vc-product-tpl-editor.php:103
+msgid "Add New Product Template"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-product-tpl-editor.php:105
+msgid "Edit Product Template"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-product-tpl-editor.php:106
+msgid "New Product Template"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-product-tpl-editor.php:107
+#: includes/js_composer/vc-editor/vc-product-tpl-editor.php:108
+msgid "View Product Template"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-product-tpl-editor.php:109
+msgid "Search Product Templates"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-product-tpl-editor.php:110
+msgid "No Product Templates found"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-product-tpl-editor.php:111
+msgid "No Product Templates found in trash"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-product-tpl-editor.php:112
+msgid "Parent Product Template"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-thankyou-editor.php:69
+msgid "Thank you Templates"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-thankyou-editor.php:70
+msgid "Thank you Template"
+msgstr ""
+
+#: includes/js_composer/vc-editor/vc-thankyou-editor.php:71
+msgctxt "Admin menu name"
+msgid "Thank you Templates"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:3
+#: includes/js_composer/vc-map/vc-map.php:9
+#: includes/js_composer/vc-map/vc-map.php:398
+msgid "Left"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:4
+#: includes/js_composer/vc-map/vc-map.php:10
+#: includes/js_composer/vc-map/vc-map.php:399
+msgid "Right"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:5
+#: includes/js_composer/vc-map/vc-map.php:11
+#: includes/js_composer/vc-map/vc-map.php:400
+msgid "Center"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:6
+#: includes/js_composer/vc-map/vc-map.php:12
+msgid "Justify"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:33
+msgid "Single Product Title"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:35
+#: includes/js_composer/vc-map/single-product-shortcodes.php:120
+#: includes/js_composer/vc-map/single-product-shortcodes.php:141
+#: includes/js_composer/vc-map/single-product-shortcodes.php:210
+#: includes/js_composer/vc-map/single-product-shortcodes.php:279
+#: includes/js_composer/vc-map/single-product-shortcodes.php:309
+#: includes/js_composer/vc-map/single-product-shortcodes.php:332
+#: includes/js_composer/vc-map/single-product-shortcodes.php:357
+#: includes/js_composer/vc-map/single-product-shortcodes.php:385
+#: includes/js_composer/vc-map/single-product-shortcodes.php:406
+#: includes/js_composer/vc-map/single-product-shortcodes.php:427
+#: includes/js_composer/vc-map/single-product-shortcodes.php:448
+#: includes/js_composer/vc-map/single-product-shortcodes.php:469
+#: includes/js_composer/vc-map/single-product-shortcodes.php:538
+#: includes/js_composer/vc-map/single-product-shortcodes.php:559
+#: includes/js_composer/vc-map/single-product-shortcodes.php:611
+#: includes/js_composer/vc-map/single-product-shortcodes.php:667
+#: includes/js_composer/vc-map/single-product-shortcodes.php:694
+#: includes/js_composer/vc-map/single-product-shortcodes.php:721
+#: includes/js_composer/vc-map/single-product-shortcodes.php:744
+#: includes/js_composer/vc-map/single-product-shortcodes.php:766
+#: includes/js_composer/vc-map/single-product-shortcodes.php:793
+#: includes/js_composer/vc-map/single-product-shortcodes.php:814
+#: includes/js_composer/vc-map/single-product-shortcodes.php:843
+#: includes/js_composer/vc-map/single-product-shortcodes.php:872
+#: includes/js_composer/vc-map/single-product-shortcodes.php:898
+#: includes/js_composer/vc-map/single-product/single-product-image.php:6
+msgid "Woo Single product"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:40
+#: includes/js_composer/vc-map/vc-map.php:127
+msgid "HTML Tag"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:56
+#: includes/js_composer/vc-map/single-product-shortcodes.php:146
+#: includes/js_composer/vc-map/single-product-shortcodes.php:215
+#: includes/js_composer/vc-map/single-product-shortcodes.php:474
+#: includes/js_composer/vc-map/vc-map.php:43
+#: includes/js_composer/vc-map/vc-map.php:143
+#: includes/js_composer/vc-map/vc-map.php:212
+#: includes/js_composer/vc-map/vc-map.php:395
+msgid "Text align"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:62
+#: includes/js_composer/vc-map/single-product-shortcodes.php:152
+#: includes/js_composer/vc-map/single-product-shortcodes.php:221
+#: includes/js_composer/vc-map/single-product-shortcodes.php:480
+#: includes/js_composer/vc-map/vc-map.php:149
+#: includes/js_composer/vc-map/vc-map.php:218
+msgid "Font size"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:64
+#: includes/js_composer/vc-map/single-product-shortcodes.php:154
+#: includes/js_composer/vc-map/single-product-shortcodes.php:223
+#: includes/js_composer/vc-map/single-product-shortcodes.php:482
+#: includes/js_composer/vc-map/vc-map.php:151
+#: includes/js_composer/vc-map/vc-map.php:220
+msgid "Enter font size."
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:69
+#: includes/js_composer/vc-map/single-product-shortcodes.php:159
+#: includes/js_composer/vc-map/single-product-shortcodes.php:228
+#: includes/js_composer/vc-map/single-product-shortcodes.php:487
+#: includes/js_composer/vc-map/vc-map.php:156
+#: includes/js_composer/vc-map/vc-map.php:225
+msgid "Line height"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:71
+#: includes/js_composer/vc-map/single-product-shortcodes.php:161
+#: includes/js_composer/vc-map/single-product-shortcodes.php:230
+#: includes/js_composer/vc-map/single-product-shortcodes.php:489
+#: includes/js_composer/vc-map/vc-map.php:158
+#: includes/js_composer/vc-map/vc-map.php:227
+msgid "Enter line height."
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:75
+#: includes/js_composer/vc-map/single-product-shortcodes.php:165
+#: includes/js_composer/vc-map/single-product-shortcodes.php:234
+#: includes/js_composer/vc-map/single-product-shortcodes.php:493
+#: includes/js_composer/vc-map/vc-map.php:162
+#: includes/js_composer/vc-map/vc-map.php:231
+msgid "Color"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:80
+#: includes/js_composer/vc-map/single-product-shortcodes.php:170
+#: includes/js_composer/vc-map/single-product-shortcodes.php:239
+#: includes/js_composer/vc-map/single-product-shortcodes.php:498
+#: includes/js_composer/vc-map/vc-map.php:167
+#: includes/js_composer/vc-map/vc-map.php:236
+msgid "Use theme default font family?"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:82
+#: includes/js_composer/vc-map/single-product-shortcodes.php:172
+#: includes/js_composer/vc-map/single-product-shortcodes.php:241
+#: includes/js_composer/vc-map/single-product-shortcodes.php:500
+#: includes/js_composer/vc-map/vc-map.php:169
+#: includes/js_composer/vc-map/vc-map.php:238
+#: includes/js_composer/vc-map/vc-map.php:332
+#: includes/js_composer/vc-map/vc-map.php:345
+#: includes/js_composer/vc-map/vc-map.php:358
+msgid "No"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:83
+#: includes/js_composer/vc-map/single-product-shortcodes.php:173
+#: includes/js_composer/vc-map/single-product-shortcodes.php:242
+#: includes/js_composer/vc-map/single-product-shortcodes.php:501
+#: includes/js_composer/vc-map/vc-map.php:170
+#: includes/js_composer/vc-map/vc-map.php:239
+msgid "Use font family from the theme."
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:92
+#: includes/js_composer/vc-map/single-product-shortcodes.php:182
+#: includes/js_composer/vc-map/single-product-shortcodes.php:251
+#: includes/js_composer/vc-map/single-product-shortcodes.php:510
+#: includes/js_composer/vc-map/vc-map.php:179
+#: includes/js_composer/vc-map/vc-map.php:248
+msgid "Select font family."
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:93
+#: includes/js_composer/vc-map/single-product-shortcodes.php:183
+#: includes/js_composer/vc-map/single-product-shortcodes.php:252
+#: includes/js_composer/vc-map/single-product-shortcodes.php:511
+#: includes/js_composer/vc-map/vc-map.php:180
+#: includes/js_composer/vc-map/vc-map.php:249
+msgid "Select font styling."
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:104
+#: includes/js_composer/vc-map/single-product-shortcodes.php:125
+#: includes/js_composer/vc-map/single-product-shortcodes.php:194
+#: includes/js_composer/vc-map/single-product-shortcodes.php:263
+#: includes/js_composer/vc-map/single-product-shortcodes.php:284
+#: includes/js_composer/vc-map/single-product-shortcodes.php:317
+#: includes/js_composer/vc-map/single-product-shortcodes.php:340
+#: includes/js_composer/vc-map/single-product-shortcodes.php:369
+#: includes/js_composer/vc-map/single-product-shortcodes.php:390
+#: includes/js_composer/vc-map/single-product-shortcodes.php:411
+#: includes/js_composer/vc-map/single-product-shortcodes.php:432
+#: includes/js_composer/vc-map/single-product-shortcodes.php:453
+#: includes/js_composer/vc-map/single-product-shortcodes.php:522
+#: includes/js_composer/vc-map/single-product-shortcodes.php:543
+#: includes/js_composer/vc-map/single-product-shortcodes.php:595
+#: includes/js_composer/vc-map/single-product-shortcodes.php:647
+#: includes/js_composer/vc-map/single-product-shortcodes.php:672
+#: includes/js_composer/vc-map/single-product-shortcodes.php:699
+#: includes/js_composer/vc-map/single-product-shortcodes.php:726
+#: includes/js_composer/vc-map/single-product-shortcodes.php:749
+#: includes/js_composer/vc-map/single-product-shortcodes.php:771
+#: includes/js_composer/vc-map/single-product-shortcodes.php:798
+#: includes/js_composer/vc-map/single-product-shortcodes.php:822
+#: includes/js_composer/vc-map/single-product-shortcodes.php:849
+#: includes/js_composer/vc-map/single-product-shortcodes.php:878
+#: includes/js_composer/vc-map/single-product-shortcodes.php:916
+#: includes/js_composer/vc-map/single-product/single-product-image.php:11
+#: includes/js_composer/vc-map/vc-map.php:48
+#: includes/js_composer/vc-map/vc-map.php:85
+#: includes/js_composer/vc-map/vc-map.php:106
+#: includes/js_composer/vc-map/vc-map.php:191
+#: includes/js_composer/vc-map/vc-map.php:260
+#: includes/js_composer/vc-map/vc-map.php:373
+#: includes/js_composer/vc-map/vc-map.php:424
+#: includes/js_composer/vc-map/vc-map.php:447
+#: includes/js_composer/vc-map/vc-map.php:468
+#: includes/js_composer/vc-map/vc-map.php:520
+#: includes/js_composer/vc-map/vc-map.php:543
+#: includes/js_composer/vc-map/vc-map.php:564
+#: includes/js_composer/vc-map/vc-map.php:585
+#: includes/js_composer/vc-map/vc-map.php:606
+#: includes/js_composer/vc-map/vc-map.php:628
+#: includes/js_composer/vc-map/vc-map.php:649
+#: includes/js_composer/vc-map/vc-map.php:670
+#: includes/js_composer/vc-map/vc-map.php:692
+#: includes/js_composer/vc-map/vc-map.php:713
+#: includes/js_composer/vc-map/vc-map.php:745
+#: includes/js_composer/vc-map/vc-map.php:767
+#: includes/js_composer/vc-map/vc-map.php:797
+#: includes/js_composer/vc-map/vc-map.php:821
+#: includes/js_composer/vc-map/vc-map.php:845
+#: includes/js_composer/vc-map/vc-map.php:868
+#: includes/js_composer/vc-map/vc-map.php:898
+#: includes/js_composer/vc-map/vc-map.php:920
+#: includes/js_composer/vc-map/vc-map.php:942
+#: includes/js_composer/vc-map/vc-map.php:996
+#: includes/js_composer/vc-map/vc-map.php:1017
+msgid "Extra class name"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:108
+#: includes/js_composer/vc-map/single-product-shortcodes.php:129
+#: includes/js_composer/vc-map/single-product-shortcodes.php:198
+#: includes/js_composer/vc-map/single-product-shortcodes.php:267
+#: includes/js_composer/vc-map/single-product-shortcodes.php:288
+#: includes/js_composer/vc-map/single-product-shortcodes.php:321
+#: includes/js_composer/vc-map/single-product-shortcodes.php:344
+#: includes/js_composer/vc-map/single-product-shortcodes.php:373
+#: includes/js_composer/vc-map/single-product-shortcodes.php:394
+#: includes/js_composer/vc-map/single-product-shortcodes.php:415
+#: includes/js_composer/vc-map/single-product-shortcodes.php:436
+#: includes/js_composer/vc-map/single-product-shortcodes.php:457
+#: includes/js_composer/vc-map/single-product-shortcodes.php:526
+#: includes/js_composer/vc-map/single-product-shortcodes.php:547
+#: includes/js_composer/vc-map/single-product-shortcodes.php:599
+#: includes/js_composer/vc-map/single-product-shortcodes.php:651
+#: includes/js_composer/vc-map/single-product-shortcodes.php:676
+#: includes/js_composer/vc-map/single-product-shortcodes.php:703
+#: includes/js_composer/vc-map/single-product-shortcodes.php:730
+#: includes/js_composer/vc-map/single-product-shortcodes.php:753
+#: includes/js_composer/vc-map/single-product-shortcodes.php:775
+#: includes/js_composer/vc-map/single-product-shortcodes.php:802
+#: includes/js_composer/vc-map/single-product-shortcodes.php:826
+#: includes/js_composer/vc-map/single-product-shortcodes.php:853
+#: includes/js_composer/vc-map/single-product-shortcodes.php:882
+#: includes/js_composer/vc-map/single-product-shortcodes.php:920
+#: includes/js_composer/vc-map/single-product/single-product-image.php:15
+#: includes/js_composer/vc-map/vc-map.php:52
+#: includes/js_composer/vc-map/vc-map.php:89
+#: includes/js_composer/vc-map/vc-map.php:110
+#: includes/js_composer/vc-map/vc-map.php:195
+#: includes/js_composer/vc-map/vc-map.php:264
+#: includes/js_composer/vc-map/vc-map.php:377
+#: includes/js_composer/vc-map/vc-map.php:428
+#: includes/js_composer/vc-map/vc-map.php:451
+#: includes/js_composer/vc-map/vc-map.php:472
+#: includes/js_composer/vc-map/vc-map.php:524
+#: includes/js_composer/vc-map/vc-map.php:547
+#: includes/js_composer/vc-map/vc-map.php:568
+#: includes/js_composer/vc-map/vc-map.php:589
+#: includes/js_composer/vc-map/vc-map.php:610
+#: includes/js_composer/vc-map/vc-map.php:632
+#: includes/js_composer/vc-map/vc-map.php:653
+#: includes/js_composer/vc-map/vc-map.php:674
+#: includes/js_composer/vc-map/vc-map.php:696
+#: includes/js_composer/vc-map/vc-map.php:717
+#: includes/js_composer/vc-map/vc-map.php:749
+#: includes/js_composer/vc-map/vc-map.php:771
+#: includes/js_composer/vc-map/vc-map.php:801
+#: includes/js_composer/vc-map/vc-map.php:825
+#: includes/js_composer/vc-map/vc-map.php:849
+#: includes/js_composer/vc-map/vc-map.php:872
+#: includes/js_composer/vc-map/vc-map.php:902
+#: includes/js_composer/vc-map/vc-map.php:924
+#: includes/js_composer/vc-map/vc-map.php:946
+#: includes/js_composer/vc-map/vc-map.php:1000
+#: includes/js_composer/vc-map/vc-map.php:1021
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:112
+#: includes/js_composer/vc-map/single-product-shortcodes.php:133
+#: includes/js_composer/vc-map/single-product-shortcodes.php:202
+#: includes/js_composer/vc-map/single-product-shortcodes.php:271
+#: includes/js_composer/vc-map/single-product-shortcodes.php:292
+#: includes/js_composer/vc-map/single-product-shortcodes.php:325
+#: includes/js_composer/vc-map/single-product-shortcodes.php:348
+#: includes/js_composer/vc-map/single-product-shortcodes.php:377
+#: includes/js_composer/vc-map/single-product-shortcodes.php:398
+#: includes/js_composer/vc-map/single-product-shortcodes.php:419
+#: includes/js_composer/vc-map/single-product-shortcodes.php:440
+#: includes/js_composer/vc-map/single-product-shortcodes.php:461
+#: includes/js_composer/vc-map/single-product-shortcodes.php:530
+#: includes/js_composer/vc-map/single-product-shortcodes.php:551
+#: includes/js_composer/vc-map/single-product-shortcodes.php:603
+#: includes/js_composer/vc-map/single-product-shortcodes.php:655
+#: includes/js_composer/vc-map/single-product-shortcodes.php:680
+#: includes/js_composer/vc-map/single-product-shortcodes.php:707
+#: includes/js_composer/vc-map/single-product-shortcodes.php:734
+#: includes/js_composer/vc-map/single-product-shortcodes.php:757
+#: includes/js_composer/vc-map/single-product-shortcodes.php:779
+#: includes/js_composer/vc-map/single-product-shortcodes.php:806
+#: includes/js_composer/vc-map/single-product-shortcodes.php:830
+#: includes/js_composer/vc-map/single-product-shortcodes.php:857
+#: includes/js_composer/vc-map/single-product-shortcodes.php:886
+#: includes/js_composer/vc-map/single-product-shortcodes.php:924
+#: includes/js_composer/vc-map/single-product/single-product-image.php:19
+#: includes/js_composer/vc-map/vc-map.php:56
+#: includes/js_composer/vc-map/vc-map.php:93
+#: includes/js_composer/vc-map/vc-map.php:114
+#: includes/js_composer/vc-map/vc-map.php:199
+#: includes/js_composer/vc-map/vc-map.php:268
+#: includes/js_composer/vc-map/vc-map.php:407
+#: includes/js_composer/vc-map/vc-map.php:432
+#: includes/js_composer/vc-map/vc-map.php:455
+#: includes/js_composer/vc-map/vc-map.php:476
+#: includes/js_composer/vc-map/vc-map.php:528
+#: includes/js_composer/vc-map/vc-map.php:551
+#: includes/js_composer/vc-map/vc-map.php:572
+#: includes/js_composer/vc-map/vc-map.php:593
+#: includes/js_composer/vc-map/vc-map.php:614
+#: includes/js_composer/vc-map/vc-map.php:636
+#: includes/js_composer/vc-map/vc-map.php:657
+#: includes/js_composer/vc-map/vc-map.php:678
+#: includes/js_composer/vc-map/vc-map.php:700
+#: includes/js_composer/vc-map/vc-map.php:721
+#: includes/js_composer/vc-map/vc-map.php:753
+#: includes/js_composer/vc-map/vc-map.php:775
+#: includes/js_composer/vc-map/vc-map.php:805
+#: includes/js_composer/vc-map/vc-map.php:829
+#: includes/js_composer/vc-map/vc-map.php:853
+#: includes/js_composer/vc-map/vc-map.php:876
+#: includes/js_composer/vc-map/vc-map.php:906
+#: includes/js_composer/vc-map/vc-map.php:928
+#: includes/js_composer/vc-map/vc-map.php:950
+#: includes/js_composer/vc-map/vc-map.php:1004
+#: includes/js_composer/vc-map/vc-map.php:1025
+msgid "Css"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:114
+#: includes/js_composer/vc-map/single-product-shortcodes.php:135
+#: includes/js_composer/vc-map/single-product-shortcodes.php:204
+#: includes/js_composer/vc-map/single-product-shortcodes.php:273
+#: includes/js_composer/vc-map/single-product-shortcodes.php:294
+#: includes/js_composer/vc-map/single-product-shortcodes.php:327
+#: includes/js_composer/vc-map/single-product-shortcodes.php:350
+#: includes/js_composer/vc-map/single-product-shortcodes.php:379
+#: includes/js_composer/vc-map/single-product-shortcodes.php:400
+#: includes/js_composer/vc-map/single-product-shortcodes.php:421
+#: includes/js_composer/vc-map/single-product-shortcodes.php:442
+#: includes/js_composer/vc-map/single-product-shortcodes.php:463
+#: includes/js_composer/vc-map/single-product-shortcodes.php:532
+#: includes/js_composer/vc-map/single-product-shortcodes.php:553
+#: includes/js_composer/vc-map/single-product-shortcodes.php:605
+#: includes/js_composer/vc-map/single-product-shortcodes.php:657
+#: includes/js_composer/vc-map/single-product-shortcodes.php:682
+#: includes/js_composer/vc-map/single-product-shortcodes.php:709
+#: includes/js_composer/vc-map/single-product-shortcodes.php:736
+#: includes/js_composer/vc-map/single-product-shortcodes.php:759
+#: includes/js_composer/vc-map/single-product-shortcodes.php:781
+#: includes/js_composer/vc-map/single-product-shortcodes.php:808
+#: includes/js_composer/vc-map/single-product-shortcodes.php:832
+#: includes/js_composer/vc-map/single-product-shortcodes.php:859
+#: includes/js_composer/vc-map/single-product-shortcodes.php:888
+#: includes/js_composer/vc-map/single-product-shortcodes.php:926
+#: includes/js_composer/vc-map/single-product/single-product-image.php:21
+#: includes/js_composer/vc-map/vc-map.php:58
+#: includes/js_composer/vc-map/vc-map.php:95
+#: includes/js_composer/vc-map/vc-map.php:116
+#: includes/js_composer/vc-map/vc-map.php:201
+#: includes/js_composer/vc-map/vc-map.php:270
+#: includes/js_composer/vc-map/vc-map.php:409
+#: includes/js_composer/vc-map/vc-map.php:434
+#: includes/js_composer/vc-map/vc-map.php:457
+#: includes/js_composer/vc-map/vc-map.php:478
+#: includes/js_composer/vc-map/vc-map.php:530
+#: includes/js_composer/vc-map/vc-map.php:553
+#: includes/js_composer/vc-map/vc-map.php:574
+#: includes/js_composer/vc-map/vc-map.php:595
+#: includes/js_composer/vc-map/vc-map.php:616
+#: includes/js_composer/vc-map/vc-map.php:638
+#: includes/js_composer/vc-map/vc-map.php:659
+#: includes/js_composer/vc-map/vc-map.php:680
+#: includes/js_composer/vc-map/vc-map.php:702
+#: includes/js_composer/vc-map/vc-map.php:723
+#: includes/js_composer/vc-map/vc-map.php:755
+#: includes/js_composer/vc-map/vc-map.php:777
+#: includes/js_composer/vc-map/vc-map.php:807
+#: includes/js_composer/vc-map/vc-map.php:831
+#: includes/js_composer/vc-map/vc-map.php:855
+#: includes/js_composer/vc-map/vc-map.php:878
+#: includes/js_composer/vc-map/vc-map.php:908
+#: includes/js_composer/vc-map/vc-map.php:930
+#: includes/js_composer/vc-map/vc-map.php:952
+#: includes/js_composer/vc-map/vc-map.php:1006
+#: includes/js_composer/vc-map/vc-map.php:1027
+msgid "Design options"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:118
+msgid "Single Product Rating"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:139
+msgid "Single Product Price"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:208
+msgid "Single Product Excerpt"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:277
+msgid "Single Product Add To Cart"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:307
+msgid "WC Memberships: Product Purchasing Discount"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:311
+msgid "Displays member discount message for a product or product variation."
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:330
+msgid "WC Memberships: Product Purchasing Restricted"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:334
+msgid "Displays product purchasing restricted message."
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:355
+msgid "Single Product Continue Shopping"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:362
+msgid "Continue Shopping button text"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:365
+#: includes/shortcodes/shortcodes.php:722
+msgid "Continue Shopping"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:366
+msgid "Add Continue Shopping Button"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:383
+msgid "Single Product Meta"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:404
+msgid "Single Product Share"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:425
+msgid "Single Product Tabs"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:446
+msgid "Single Product Additional Information"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:467
+msgid "Single Product Description"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:536
+msgid "Single Product Reviews"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:557
+msgid "Single Product Related Products"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:564
+#: includes/js_composer/vc-map/single-product-shortcodes.php:616
+#: includes/js_composer/vc-map/vc-map.php:489
+msgid "Product Per Page"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:569
+#: includes/js_composer/vc-map/single-product-shortcodes.php:621
+#: includes/js_composer/vc-map/vc-map.php:294
+#: includes/js_composer/vc-map/vc-map.php:494
+msgid "Columns"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:574
+#: includes/js_composer/vc-map/single-product-shortcodes.php:626
+msgid "Products Ordering"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:578
+#: includes/js_composer/vc-map/single-product-shortcodes.php:630
+#: includes/js_composer/vc-map/vc-map.php:23
+#: includes/js_composer/vc-map/vc-map.php:503
+msgid "Random"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:579
+#: includes/js_composer/vc-map/single-product-shortcodes.php:631
+#: includes/js_composer/vc-map/vc-map.php:504
+msgid "Publish Date"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:580
+#: includes/js_composer/vc-map/single-product-shortcodes.php:632
+#: includes/js_composer/vc-map/vc-map.php:505
+msgid "Modified Date"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:581
+#: includes/js_composer/vc-map/single-product-shortcodes.php:633
+#: includes/js_composer/vc-map/vc-map.php:506
+msgid "Alphabetic"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:582
+#: includes/js_composer/vc-map/single-product-shortcodes.php:634
+#: includes/js_composer/vc-map/vc-map.php:507
+msgid "Popularity"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:583
+#: includes/js_composer/vc-map/single-product-shortcodes.php:635
+#: includes/js_composer/vc-map/vc-map.php:508
+msgid "Rate"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:584
+#: includes/js_composer/vc-map/single-product-shortcodes.php:636
+#: includes/js_composer/vc-map/vc-map.php:509
+#: woocommerce-page-builder-templates/cart/cart-table.php:35
+#: woocommerce-page-builder-templates/cart/cart-table.php:98
+msgid "Price"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:587
+#: includes/js_composer/vc-map/single-product-shortcodes.php:639
+msgid "Products order"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:591
+#: includes/js_composer/vc-map/single-product-shortcodes.php:643
+msgid "DESC"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:592
+#: includes/js_composer/vc-map/single-product-shortcodes.php:644
+msgid "ASC"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:609
+msgid "Single Product up-sells"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:665
+msgid "YITH WooCommerce Wishlist Single Add To Wishlist"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:692
+msgid "YITH WooCommerce Compare Single Add Compare Link"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:719
+msgid "WooCommerce Germanized Single Price Unit"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:742
+msgid "WooCommerce Germanized Single Legal Info"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:764
+msgid "WooCommerce Germanized Single Delivery Time Info"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:791
+msgid "WooCommerce Simple Auction Bid"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:812
+msgid "WooCommerce Simple Auction Pay"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:816
+msgid "Display when the user logged in and have won the auction"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:841
+msgid "Single Product WooCommerce Frontend Manager Enquiry Button"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:869
+msgid "Single Product WooCommerce Multivendor Marketplace Show Sold by"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:896
+msgid "WooCommerce Product custom key"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:899
+msgid "Display Product Custom Field"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:904
+msgid "Label"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:907
+msgid "Enter label to display before key value."
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:910
+msgid "Product custom key"
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product-shortcodes.php:913
+msgid "Enter custom key."
+msgstr ""
+
+#: includes/js_composer/vc-map/single-product/single-product-image.php:4
+msgid "Single Product Image"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:14
+msgid "Show"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:15
+msgid "Hide"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:18
+msgid "Date"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:19
+msgid "ID"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:20
+msgid "Author"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:21
+msgid "Title"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:22
+msgid "Modified"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:24
+msgid "Comment count"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:25
+msgid "Menu order"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:29
+msgid "Descending"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:30
+msgid "Ascending"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:35
+msgid "WooCommercePageBuilder Breadcrumb"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:37
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:39
+msgid "Some themes may not show it and show their breadcrumb."
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:69
+msgid "Category Thumbnail"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:71
+#: includes/js_composer/vc-map/vc-map.php:100
+#: includes/js_composer/vc-map/vc-map.php:121
+#: includes/js_composer/vc-map/vc-map.php:206
+#: includes/js_composer/vc-map/vc-map.php:276
+#: includes/js_composer/vc-map/vc-map.php:418
+msgid "Archive Product Page"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:73
+msgid "Displaying Category Thumbnail"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:77
+msgid "Image size"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:81
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by theme). Alternatively enter size in pixels (Example: "
+"200x100 (Width x Height))."
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:98
+msgid "Archive Header"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:102
+msgid "Displaying Archive Title and Archive Description"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:119
+msgid "Archive Header Title"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:123
+msgid "Displaying Archive Title"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:204
+msgid "Archive Header Description"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:208
+msgid "Displaying Archive Description"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:274
+msgid "Archive Products Loop"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:278
+msgid "Displaying product archives, including the main shop"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:282
+msgid "Layout"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:287
+msgid "Theme Default"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:288
+msgid "Custom Content"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:302
+msgid "Tablet Columns"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:310
+msgid "Mobile Columns"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:318
+msgid "Rows"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:326
+msgid "Pagination"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:331
+#: includes/js_composer/vc-map/vc-map.php:344
+#: includes/js_composer/vc-map/vc-map.php:357
+msgid "Yes"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:339
+msgid "Allow Order"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:352
+msgid "Show Result Count"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:365
+msgid "Nothing Found Message"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:368
+#: includes/shortcodes/shortcodes.php:1419
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:381
+msgid "Columns Gap"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:385
+#: includes/js_composer/vc-map/vc-map.php:392
+#: includes/js_composer/vc-map/vc-map.php:403
+msgid "Style"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:388
+msgid "Rows Gap"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:416
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:440
+msgid "Cart Table"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:442
+#: includes/js_composer/vc-map/vc-map.php:463
+#: includes/js_composer/vc-map/vc-map.php:484
+msgid "Woo Cart"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:461
+msgid "Cart Totals"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:482
+msgid "Cross Sells"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:499
+msgid "Orderby"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:512
+msgid "Order"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:516
+msgid "desc"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:517
+msgid "asc"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:535
+msgid "Checkout Coupon Form"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:537
+#: includes/js_composer/vc-map/vc-map.php:559
+#: includes/js_composer/vc-map/vc-map.php:580
+#: includes/js_composer/vc-map/vc-map.php:601
+msgid "Woo Checkout"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:557
+msgid "Billing Information"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:578
+msgid "Shipping information form"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:599
+msgid "Order review"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:621
+msgid "Thank You Order"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:623
+#: includes/js_composer/vc-map/vc-map.php:644
+#: includes/js_composer/vc-map/vc-map.php:665
+msgid "Woo Thank you"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:642
+msgid "Order Details"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:663
+msgid "Order Customer Details"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:685
+msgid "My Account Login Form"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:687
+#: includes/js_composer/vc-map/vc-map.php:708
+msgid "Woo My Account Before Login"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:706
+msgid "My Account Register Form"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:728
+msgid "My Account Dashboard"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:730
+#: includes/js_composer/vc-map/vc-map.php:761
+#: includes/js_composer/vc-map/vc-map.php:791
+#: includes/js_composer/vc-map/vc-map.php:815
+#: includes/js_composer/vc-map/vc-map.php:839
+#: includes/js_composer/vc-map/vc-map.php:862
+#: includes/js_composer/vc-map/vc-map.php:884
+#: includes/js_composer/vc-map/vc-map.php:914
+#: includes/js_composer/vc-map/vc-map.php:936
+#: includes/js_composer/vc-map/vc-map.php:982
+#: includes/js_composer/vc-map/vc-map.php:1011
+msgid "Woo My Account"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:732
+msgid "Shows account dashboard."
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:736
+msgid "Custom My Account Dashboard"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:741
+msgid ""
+"Overridden woocommerce/myaccount/dashboard.php. Leave blank to use the "
+"template dashboard.php file"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:759
+msgid "My Account Orders"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:763
+#: includes/js_composer/vc-map/vc-map.php:864
+msgid "Shows orders on the account page."
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:789
+msgid "WC Memberships: My Account Memberships"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:793
+msgid "Renders the members area content."
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:813
+msgid "WC Subscriptions: My Account Subscriptions"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:837
+msgid "WooCommerce Bookings"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:860
+msgid "My Account Downloads"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:882
+msgid "My Account Addresses"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:886
+msgid "My Addresses."
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:912
+msgid "My Account Details"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:916
+#: includes/js_composer/vc-map/vc-map.php:938
+msgid "Edit account form."
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:934
+msgid "My Account Payment methods"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:980
+msgid "My Account Extra Endpoint"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:988
+msgid "Extra Key endpoint"
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:992
+msgid ""
+"Enter extra key for Account endpoint. eg: 'extra-key' for "
+"'woocommerce_account_extra-key_endpoint', 'bookings' for "
+"'woocommerce_account_bookings_endpoint'."
+msgstr ""
+
+#: includes/js_composer/vc-map/vc-map.php:1009
+msgid "My Account Logout"
+msgstr ""
+
+#: includes/plugins-support/wc-frontend-manager/class-wcfm.php:27
+#: includes/shortcodes/shortcodes.php:1112
+msgid "Ask a Question"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:691
+msgid "Direct Checkout"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:1735
+msgid "Your order"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:1901
+#, php-format
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
+msgstr ""
+
+#: includes/shortcodes/shortcodes.php:1928
+#: includes/shortcodes/shortcodes.php:2036
+#: includes/shortcodes/shortcodes.php:2076
+#: includes/shortcodes/shortcodes.php:2099
+#: includes/shortcodes/shortcodes.php:2126
+msgid "You need first to be logged in"
+msgstr ""
+
+#: init.php:89
+#, php-format
+msgid ""
+"The <strong>%s</strong> requires <strong><a href=\"http://www.woothemes.com/"
+"woocommerce/\" target=\"_blank\">WooCommerce</a></strong> plugin to be "
+"installed and activated on your site."
+msgstr ""
+
+#: init.php:97
+#, php-format
+msgid ""
+"<strong>%s</strong> Compatible with <strong>WPBakery Page Builder</strong> "
+"plugin. So You can install <strong><a href=\"https://codecanyon.net/item/"
+"visual-composer-page-builder-for-wordpress/242431?ref=dawnthemes\" target="
+"\"_blank\">WPBakery Page Builder</a></strong> plugin to be used into "
+"WPBakery Page Builder."
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-table.php:34
+#: woocommerce-page-builder-templates/cart/cart-table.php:78
+#: woocommerce-page-builder-templates/order/order-details.php:45
+msgid "Product"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-table.php:36
+#: woocommerce-page-builder-templates/cart/cart-table.php:104
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-table.php:37
+#: woocommerce-page-builder-templates/cart/cart-table.php:121
+#: woocommerce-page-builder-templates/order/order-details.php:46
+msgid "Total"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-table.php:59
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-table.php:93
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-table.php:139
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-table.php:139
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-table.php:139
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-table.php:144
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce-page-builder-templates/checkout/before-form-checkout.php:16
+#: woocommerce-page-builder-templates/checkout/form-checkout.php:16
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce-page-builder-templates/checkout/thankyou-order-received.php:28
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce-page-builder-templates/checkout/thankyou-order-received.php:31
+msgid "Pay"
+msgstr ""
+
+#: woocommerce-page-builder-templates/checkout/thankyou-order-received.php:33
+msgid "My account"
+msgstr ""
+
+#: woocommerce-page-builder-templates/checkout/thankyou-order-received.php:39
+#: woocommerce-page-builder-templates/checkout/thankyou-order-received.php:80
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce-page-builder-templates/checkout/thankyou-order-received.php:44
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce-page-builder-templates/checkout/thankyou-order-received.php:49
+msgid "Date:"
+msgstr ""
+
+#: woocommerce-page-builder-templates/checkout/thankyou-order-received.php:55
+msgid "Email:"
+msgstr ""
+
+#: woocommerce-page-builder-templates/checkout/thankyou-order-received.php:61
+msgid "Total:"
+msgstr ""
+
+#: woocommerce-page-builder-templates/checkout/thankyou-order-received.php:67
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/content-form-login.php:18
+msgid "Login"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/content-form-login.php:25
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/content-form-login.php:29
+#: woocommerce-page-builder-templates/myaccount/form-register.php:51
+msgid "Password"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/content-form-login.php:37
+msgid "Log in"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/content-form-login.php:39
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/content-form-login.php:43
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-register.php:28
+#: woocommerce-page-builder-templates/myaccount/form-register.php:61
+msgid "Register"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-register.php:37
+msgid "Username"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-register.php:44
+msgid "Email address"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/partials/dropdown.php:13
+msgid "Choose value"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/payment-methods.php:52
+#, php-format
+msgid "%1$s ending in %2$s"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/payment-methods.php:73
+msgid "No saved methods found."
+msgstr ""
+
+#: woocommerce-page-builder-templates/order/order-details.php:39
+msgid "Order details"
+msgstr ""
+
+#: woocommerce-page-builder-templates/order/order-details.php:84
+msgid "Note:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "DT WooCommerce Page Builder"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://dawnthemes.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"is the ideal WPBakery Page Builder add-on to effortlessly layout for "
+"WooCommerce and more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DawnThemes"
+msgstr ""

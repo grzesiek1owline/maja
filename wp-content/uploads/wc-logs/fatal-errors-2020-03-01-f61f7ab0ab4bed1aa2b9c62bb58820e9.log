@@ -1,0 +1,13 @@
+2020-03-01T22:09:56+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_template_loop_add_to_cart_owl() in D:\laragon\www\maja\wp-content\themes\majalaptos-child\single-product.php:81
+Stack trace:
+#0 D:\laragon\www\maja\wp-includes\template-loader.php(98): include()
+#1 D:\laragon\www\maja\wp-blog-header.php(19): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\maja\index.php(17): require('D:\\laragon\\www\\...')
+#3 {main}
+
+Next Exception: Call to undefined function woocommerce_template_loop_add_to_cart_owl() in D:\laragon\www\maja\wp-content\plugins\query-monitor\collectors\php_errors.php:82
+Stack trace:
+#0 [internal function]: QM_Collector_PHP_Errors->exception_handler(Object(Error))
+#1 {main}
+  thrown w D:\laragon\www\maja\wp-content\plugins\query-monitor\collectors\php_errors.php w linii 82
+
