@@ -204,7 +204,7 @@ a[href*="tel"] {
 	margin: 50px 0;
 	padding: 58px 74px;
 
-	@media all and (max-width: 1200px) {
+	@media all and (max-width: 1366px) {
 		flex-wrap: wrap;
 	}
 
@@ -218,7 +218,7 @@ a[href*="tel"] {
 		flex: 1;
 		box-sizing: border-box;
 
-		@media all and (max-width: 1200px) {
+		@media all and (max-width: 1366px) {
 			flex: unset;
 			width: 33%;
 			padding-bottom: 30px;
@@ -297,6 +297,7 @@ a[href*="tel"] {
 
 	&.added {
 		width: 330px !important;
+		margin-bottom: 20px;
 	}
 
 	&::before {
@@ -313,6 +314,8 @@ a[href*="tel"] {
 
 
 .m-product-bottom {
+	padding-bottom: 40px;
+
   &__content {
 		width: 1150px;
 		padding: 0 15px;
@@ -329,7 +332,7 @@ a[href*="tel"] {
 	}
 
   &__section-title {
-		margin-bottom: 50px;
+		margin-bottom: 40px;
 		position: relative;
 		padding-top: 32px;
 
@@ -372,7 +375,7 @@ a[href*="tel"] {
 		font-size: 25px;
 		font-weight: 800;
 		text-transform: uppercase;
-		margin: 58px 0;
+		margin: 30px 0 35px;
 	}
 
   &__share {
@@ -397,10 +400,10 @@ a[href*="tel"] {
 
 	&__add-to-cart-wrapper {
 		position: relative;
-		padding-bottom: 60px;
+		padding-bottom: 40px;
 
 		& > a.added_to_cart.wc-forward {
-			bottom: 20px !important;
+			bottom: 15px !important;
 			text-decoration: underline;
 			font-weight: 600;
 			font-size: 14px;
@@ -416,7 +419,7 @@ a[href*="tel"] {
 		letter-spacing: 1.84px;
 		text-transform: uppercase;
 		padding: 18px 15px;
-		margin: 0 auto 58px;
+		margin: 0 auto 45px;
 
 		&--online {
 			background-color: #fbe6a4;
@@ -514,7 +517,7 @@ a[href*="tel"] {
 		position: relative;
 		padding: 0 30px;
 		display: inline-block;
-		margin-top: 60px;
+		margin-top: 50px;
 		box-sizing: border-box;
 
 		@media all and (max-width: 992px) {
@@ -592,6 +595,7 @@ a[href*="tel"] {
 	justify-content: center;
 	align-items: start;
 	list-style: none;
+	padding-top: 10px;
 
   &__item {
 		padding: 0 25px;
