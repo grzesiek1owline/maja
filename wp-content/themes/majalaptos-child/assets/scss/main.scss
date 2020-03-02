@@ -351,8 +351,9 @@ a[href*="tel"] {
 	z-index: 7;
 	background: #fff;
 	text-align: center;
-	padding: 120px 90px 220px;
+	padding: 120px 90px 60px;
 	min-height: 800px;
+	min-height: calc(100vh - 120px);
 	width: 33vw;
 	box-sizing: border-box;
 
@@ -369,7 +370,7 @@ a[href*="tel"] {
   &__price {
 		color: #000;
 		font-size: 25px;
-		font-weight: 700;
+		font-weight: 800;
 		text-transform: uppercase;
 		margin: 58px 0;
 	}

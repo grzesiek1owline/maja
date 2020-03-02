@@ -68,11 +68,15 @@ get_header( 'shop' ); ?>
 							if( $product->is_on_sale() ) {
 								$old_price = $product->get_regular_price();
 								$price = $product->get_sale_price();
+								$price = number_format($price, 2, '.', '');
+								$old_price = number_format($old_price, 2, '.', '');
 								echo '<span>'.$old_price . get_woocommerce_currency_symbol() .'</span>';
-								echo $price . get_woocommerce_currency_symbol();
+								echo $price . ' ' . get_woocommerce_currency_symbol();
 							} else {
 								$price = $product->get_price();
-								echo $price . get_woocommerce_currency_symbol();
+								$price = number_format($price, 2, '.', '');
+
+								echo $price . ' ' . get_woocommerce_currency_symbol();
 							}
 						?>
 					</p>
