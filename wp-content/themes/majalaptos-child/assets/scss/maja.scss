@@ -224,3 +224,12 @@ display: none;
 		background-image:url('http://maja.local/wp-content/uploads/2020/01/baner-1-mobile.jpg') !important;
 	}
 }
+
+.woocommerce button.button,
+.woocommerce a.button {
+		background-color: #fff !important;
+		&:hover {
+			color: #515151 !important;
+			opacity: 0.8;
+		}
+}

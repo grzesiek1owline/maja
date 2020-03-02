@@ -42,15 +42,19 @@ jQuery('.js-slider-bg').slick({
 });
 
 jQuery('.js-variations').slick({
-	dots: false,
-	arrows: false,
+	dots: true,
+	arrows: true,
 	infinite: true,
 	slidesToShow: 6,
 	slidesToScroll: 1,
 	adaptiveHeight: false,
-	speed: 300,
-	autoplay: false,
+	autoplay: true,
 	autoplaySpeed: 2000,
+	prevArrow: jQuery('.js-arrow-prev-var'),
+	nextArrow: jQuery('.js-arrow-next-var'),
+	speed: 500,
+	lazyLoad: 'ondemand',
+	appendDots: jQuery('.js-var-custom-paging'),
 	responsive: [{
 		breakpoint: 1024,
 		settings: {
@@ -65,16 +69,29 @@ jQuery('.js-variations').slick({
 			slidesToScroll: 1
 		}
 	}
-	]
+	],
+	customPaging: function customPaging(slider, i) {
+		return '<span>0' + (i + 1) + '</span>';
+	}
 });
 
 jQuery('.js-var').click(function (event) {
 	event.preventDefault();
 	const url = jQuery(this).attr('href');
-	console.log(url);
 
 	jQuery('.js-var-popup-img').attr('src', url);
 	jQuery('.js-var-popup').fadeIn(300);
+})
+
+jQuery('.js-zoom').click(function(event){
+	event.preventDefault();
+	const url = jQuery(this).attr('data-magnify-src');
+	const windowW = jQuery(window).width();
+
+	if(windowW < 992) {
+		jQuery('.js-var-popup-img').attr('src', url);
+		jQuery('.js-var-popup').fadeIn(300);
+	}
 })
 
 jQuery('.js-variations-close-popup').click(function () {
@@ -167,9 +184,9 @@ jQuery(document).ready(function () {
 	jQuery('.js-zoom').each(function () {
 		let big = jQuery(this).attr('data-magnify-src');
 		let url = jQuery(this).attr('src');
-		console.log('url', url)
+		const windowW = jQuery(window).width();
 
-		if (big != url) {
+		if (big != url && windowW > 992) {
 			jQuery(this).parent().zoom({
 				url: big
 			});

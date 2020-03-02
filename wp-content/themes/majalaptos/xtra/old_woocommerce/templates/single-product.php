@@ -22,7 +22,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header( 'shop' ); ?>
 
 <?php echo do_shortcode('[rev_slider alias="product-slider"]'); ?>
-<?php echo 'TUTTTTAAAAJJJ'; ?>asdsads
 
 	<?php
 		/**

@@ -61,7 +61,3 @@ if ( ! function_exists( 'woocommerce_template_loop_add_to_cart_owl' ) ) {
 									}
 			}
 	}
-
-
-// TODO: custom product single tylko dla produktów typu single, dla reszty ładuj stare
-// TODO: listy produktów

@@ -367,7 +367,7 @@ a[href*="tel"] {
 	}
 
 	@media all and (max-width: 768px) {
-		padding: 60px 0 40px;
+		padding: 60px 20px 40px;
 	}
 
   &__price {
@@ -420,6 +420,7 @@ a[href*="tel"] {
 		text-transform: uppercase;
 		padding: 18px 15px;
 		margin: 0 auto 45px;
+		text-align: center;
 
 		&--online {
 			background-color: #fbe6a4;
@@ -440,6 +441,8 @@ a[href*="tel"] {
 
 	@media all and (max-width: 992px) {
 		flex-wrap: wrap;
+		margin-top: 0;
+		margin-bottom: 60px;
 	}
 
 	&--bg {
@@ -455,6 +458,22 @@ a[href*="tel"] {
 		@media all and (max-width: 992px) {
 			position: relative !important;
 			height: 450px;
+
+			&::after {
+				content: "";
+				pointer-events: none;
+				width: 64px;
+				height: 64px;
+				background-image: url('../img/image-zoom.png');
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				display: block;
+				position: absolute;
+				left: 50%;
+				margin-left: -32px;
+				bottom: 0;
+			}
 		}
 
 		@media all and (max-width: 768px) {
@@ -516,23 +535,23 @@ a[href*="tel"] {
   &__slider-nav {
 		position: relative;
 		padding: 0 30px;
-		display: inline-block;
+		display: inline-block !important;
 		margin-top: 50px;
 		box-sizing: border-box;
 
-		@media all and (max-width: 992px) {
-			position: absolute;
-			top: 0;
-			margin-top: 0;
-			left: 20%;
-			width: 60%;
-		}
+		// @media all and (max-width: 992px) {
+		// 	position: absolute;
+		// 	top: 0;
+		// 	margin-top: 0;
+		// 	left: 20%;
+		// 	width: 60%;
+		// }
 
-		@media all and (max-width: 768px) {
-			width: 96%;
-			left: 2%;
-			padding: 0 3%;
-		}
+		// @media all and (max-width: 768px) {
+		// 	width: 96%;
+		// 	left: 2%;
+		// 	padding: 0 3%;
+		// }
 
 		& .slick-dots {
 			position: static;
@@ -627,6 +646,15 @@ a[href*="tel"] {
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
+
+		@media all and (max-width: 992px) {
+			height: auto;
+			padding: 20px 5px;
+		}
+
+		@media all and (max-width: 768px) {
+
+		}
 	}
 
   &__content {
@@ -639,6 +667,14 @@ a[href*="tel"] {
 		padding: 80px 100px;
 		text-align: left;
 		box-sizing: border-box;
+
+		@media all and (max-width:992px) {
+			padding: 40px 50px;
+		}
+
+		@media all and (max-width:768px) {
+			padding: 20px 0;
+		}
 
 		& > button {
 			margin: 40px auto 0;
@@ -721,6 +757,11 @@ a[href*="tel"] {
 			padding-bottom: 40px;
 			text-align: center;
 			align-items: center;
+			padding: 40px 50px;
+		}
+
+		@media all and (max-width:768px) {
+			padding: 20px 0;
 		}
 	}
 
@@ -773,4 +814,48 @@ a[href*="tel"] {
 		text-transform: uppercase;
 		margin-bottom: 8px;
 	}
+}
+
+
+.interactive-pillow-title h3 {
+	font-family: 'Lato' !important;
+}
+
+.m-h-only-desktop {
+	display: none;
+
+	@media all and (min-width: 992px) {
+		display: block;
+	}
+}
+
+.m-h-only-mobile {
+	display: block;
+
+	&.product-info {
+		padding: 0 20px 40px;
+		text-align: center;
+	}
+
+	@media all and (min-width: 992px) {
+		display: none;
+	}
+}
+
+.page_content.cz_bpnp > .row {
+	padding: 0 40px !important;
+	box-sizing: border-box;
+}
+
+.woocommerce nav.woocommerce-pagination ul li span.current {
+	background-color: #dddddd !important;
+}
+
+body.post-type-archive .site-main{
+	padding: 0 40px !important;
+	box-sizing: border-box;
+}
+
+#sidebar {
+	display: none !important;
 }
