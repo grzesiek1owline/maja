@@ -64,6 +64,4 @@ if ( ! function_exists( 'woocommerce_template_loop_add_to_cart_owl' ) ) {
 
 
 // TODO: custom product single tylko dla produktów typu single, dla reszty ładuj stare
-// TODO: Popup dla przykładów wykończeń.
-// TODO: Mobile View
-// TODO: Zdjęcia w slajderze musza być dopasowane
+// TODO: listy produktów
