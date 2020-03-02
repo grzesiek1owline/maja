@@ -42,10 +42,18 @@
 	align-items: center;
 }
 
+.elms_shop_cart > a > i {
+	height: auto !important;
+}
+
+.cz_cart_items {
+	width: 320px;
+}
+
 .elms_right > div:first-of-type {
 	padding: 0 58px;
 
-	& .elms_shop_cart a::after {
+	& .elms_shop_cart > a::after {
 		content: 'KOSZYK';
 		font-size: 15px;
 		color: #fff;
@@ -196,13 +204,35 @@ a[href*="tel"] {
 	margin: 50px 0;
 	padding: 58px 74px;
 
+	@media all and (max-width: 1200px) {
+		flex-wrap: wrap;
+	}
+
   &__desc {
 		color: inherit;
 		margin-bottom: 10px;
 	}
 
   &__item {
-		padding: 0 60px;
+		padding: 0 20px;
+		flex: 1;
+		box-sizing: border-box;
+
+		@media all and (max-width: 1200px) {
+			flex: unset;
+			width: 33%;
+			padding-bottom: 30px;
+			border-bottom: 1px solid #000;
+			margin-bottom: 30px;
+		}
+
+		@media all and (max-width: 992px) {
+			width: 50%;
+		}
+
+		@media all and (max-width: 768px) {
+			width: 100%;
+		}
 	}
 
   &__title {
@@ -223,6 +253,7 @@ a[href*="tel"] {
 		cursor: pointer;
 	}
 }
+
 
 
 // -- COMMON
@@ -249,10 +280,10 @@ a[href*="tel"] {
 	letter-spacing: 3.06px;
 	text-transform: uppercase;
 	font-weight: 400;
-	width: 260px !important;
-	padding: 15px !important;
+	// width: 260px !important;
+	padding: 32px !important;
 	border-radius: 0 !important;
-	border: 1px solid #000000 !important;
+	border: 1px solid #000 !important;
 	background-color: transparent !important;
 	box-sizing: border-box !important;
 	cursor: pointer;
@@ -265,7 +296,7 @@ a[href*="tel"] {
 	}
 
 	&.added {
-		width: 300px !important;
+		width: 330px !important;
 	}
 
 	&::before {
@@ -287,6 +318,7 @@ a[href*="tel"] {
 		padding: 0 15px;
 		max-width: 100%;
 		margin: 0 auto;
+		box-sizing: border-box;
 	}
 
   &__row {}
@@ -324,7 +356,23 @@ a[href*="tel"] {
 	width: 33vw;
 	box-sizing: border-box;
 
-  &__price {}
+	@media all and (max-width: 992px) {
+		width: 100vw;
+		min-height: 0;
+		padding: 60px 40px 80px;
+	}
+
+	@media all and (max-width: 768px) {
+		padding: 60px 0 40px;
+	}
+
+  &__price {
+		color: #000;
+		font-size: 25px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin: 58px 0;
+	}
 
   &__share {
 		list-style: none;
@@ -346,14 +394,15 @@ a[href*="tel"] {
 		}
 	}
 
-	&__title {}
-
 	&__add-to-cart-wrapper {
 		position: relative;
-		padding-bottom: 45px;
+		padding-bottom: 60px;
 
 		& > a.added_to_cart.wc-forward {
-			bottom: 25px !important;
+			bottom: 20px !important;
+			text-decoration: underline;
+			font-weight: 600;
+			font-size: 14px;
 		}
 	}
 
@@ -366,7 +415,7 @@ a[href*="tel"] {
 		letter-spacing: 1.84px;
 		text-transform: uppercase;
 		padding: 18px 15px;
-		margin: 0 auto;
+		margin: 0 auto 58px;
 
 		&--online {
 			background-color: #fbe6a4;
@@ -381,12 +430,16 @@ a[href*="tel"] {
 	justify-content: center;
 	align-items: stretch;
 	z-index: 5;
-	height: 100%;
+	// height: 100%;
 	overflow: hidden;
 	margin-bottom: 100px;
 
-	&--bg-duo {
+	@media all and (max-width: 992px) {
+		flex-wrap: wrap;
+	}
 
+	&--bg {
+		justify-content: flex-end;
 	}
 
   &__slider {
@@ -395,14 +448,50 @@ a[href*="tel"] {
 		height: 100%;
 		z-index: 6;
 
-    &--bg-duo {}
+		@media all and (max-width: 992px) {
+			position: relative !important;
+			height: 450px;
+		}
+
+		@media all and (max-width: 768px) {
+			height: 400px;
+		}
 	}
 
 	&__slider-item {
 		box-sizing: border-box;
+		transition: all 200ms ease;
+		padding-left: 16.5vw;
+		width: 50vw;
+
+		@media all and (max-width: 992px) {
+			width: 100vw;
+			padding-left: unset;
+		}
+
+		&.slick-current {
+			padding-left: unset;
+			padding-right: 16.5vw;
+
+			@media all and (max-width: 992px) {
+				padding-right: unset;
+			}
+		}
+
+		&.bg {
+			width: 100vw;
+			padding-left: unset;
+			padding-right: 33vw;
+
+			@media all and (max-width: 992px) {
+				padding-right: unset;
+			}
+		}
+
 		& > img {
 			width: 100%;
 		}
+
 	}
 
 	&__slider-image-wrapper {
@@ -424,6 +513,22 @@ a[href*="tel"] {
 		position: relative;
 		padding: 0 30px;
 		display: inline-block;
+		margin-top: 60px;
+		box-sizing: border-box;
+
+		@media all and (max-width: 992px) {
+			position: absolute;
+			top: 0;
+			margin-top: 0;
+			left: 20%;
+			width: 60%;
+		}
+
+		@media all and (max-width: 768px) {
+			width: 96%;
+			left: 2%;
+			padding: 0 3%;
+		}
 
 		& .slick-dots {
 			position: static;
@@ -433,6 +538,7 @@ a[href*="tel"] {
 			font-size: 15px;
 			font-weight: 300;
 			letter-spacing: 3.06px;
+			line-height: 1;
 
 			& li {
 				box-sizing: border-box;
@@ -480,7 +586,7 @@ a[href*="tel"] {
 }
 
 .m-product-variations {
-	display: flex;
+	display: flex !important;
 	flex-direction: row;
 	justify-content: center;
 	align-items: start;
@@ -488,6 +594,60 @@ a[href*="tel"] {
 
   &__item {
 		padding: 0 25px;
+	}
+}
+
+.vartiations-popup {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+
+  &__body {
+		z-index: 1200;
+		position: fixed;
+		background-color: #fff;
+		width: 730px;
+		height: 730px;
+		max-height: 96%;
+		max-width: 96%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: stretch;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+  &__content {
+		width: 40%;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: start;
+		padding: 80px 100px;
+		text-align: left;
+		box-sizing: border-box;
+
+		& > button {
+			margin: 40px auto 0;
+		}
+	}
+
+  &__overlay {
+		z-index: 1100;
+		position: fixed;
+		background-color: rgba(0, 0, 0, 0.55);
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
 	}
 }
 
@@ -531,10 +691,17 @@ a[href*="tel"] {
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
+
+		@media all and (max-width: 992px) {
+			flex-direction: column-reverse;
+			justify-content: flex-start;
+			align-items: center;
+		}
 	}
 
   &__content {
 		width: 40%;
+		flex: 1;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -542,6 +709,14 @@ a[href*="tel"] {
 		padding: 80px 100px;
 		text-align: left;
 		box-sizing: border-box;
+
+		@media all and (max-width: 992px) {
+			width: 100%;
+			height: auto;
+			padding-bottom: 40px;
+			text-align: center;
+			align-items: center;
+		}
 	}
 
   &__desc {
@@ -556,10 +731,20 @@ a[href*="tel"] {
 		width: 60%;
 		padding: 30px 0;
 
+		@media all and (max-width: 992px) {
+			width: 100%;
+			height: 250px;
+		}
+
 		& > img {
 			width: auto;
 			height: auto;
 			max-height: 530px;
+
+			@media all and (max-width: 992px) {
+				max-height: 100%;
+				margin: 0 auto;
+			}
 		}
 	}
 

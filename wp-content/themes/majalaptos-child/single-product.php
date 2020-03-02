@@ -30,6 +30,7 @@ get_header( 'shop' ); ?>
 					$slider_type = get_field('product-slider-type', $id);
 					$variations_title = get_field('product-variations-title', $id);
 					$site_url = get_site_url();
+					$share_image = get_field('product-share-image', $id)
 			?>
 
 			<div class="m-product-top m-product-top--<?php echo $slider_type; ?>">
@@ -40,8 +41,8 @@ get_header( 'shop' ); ?>
 									$image = get_sub_field('product-slider-gallery-img', $id);
 									if( !empty( $image ) ){
 										$large = $image['sizes']['large'];
-										$return = '<div class="m-product-top__slider-item">';
-										$return .= '<div class="m-product-top__slider-image-wrapper"><img class="js-zoom" data-magnify-src="'.$image['url'].'" src="'.$large.'" alt="'.esc_attr($image['alt']).'"></div>';
+										$return = '<div class="m-product-top__slider-item '.$slider_type.'">';
+										$return .= '<div class="m-product-top__slider-image-wrapper '.$slider_type.'"><img class="js-zoom" data-magnify-src="'.$image['url'].'" data-lazy="'.$large.'" alt="'.esc_attr($image['alt']).'"></div>';
 										$return .= '</div>';
 										echo $return;
 									}
@@ -78,12 +79,12 @@ get_header( 'shop' ); ?>
 					<div class="m-product-short-info__add-to-cart-wrapper">
 					<?php
 						if ( ! is_object( $product)) $product = wc_get_product( get_the_ID() );
-               woocommerce_template_loop_add_to_cart_owl( $loop->post, $product );
+               woocommerce_template_loop_add_to_cart_owl($product);
 					?>
 					</div>
 					<ul class="m-product-short-info__share">
 						<li class="m-product-short-info__share-item">
-							<a href="">
+							<a target="_blank" href="http://pinterest.com/pin/create/button/?url=<?= $share_image['url'] ?>&media=image&description=<?= get_the_title(); ?>">
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/pinterest.png" alt="<?php echo __('Udostępnij','maja') ?>">
 								<p>Udostępnij</p>
 							</a>
@@ -114,7 +115,7 @@ get_header( 'shop' ); ?>
 										$medium = $image['sizes']['medium'];
 										$large = $image['sizes']['large'];
 										$return = '<li class="m-product-variations__item">';
-										$return .= '<a href="'.$large.'">';
+										$return .= '<a class="js-var" href="'.$large.'">';
 										$return .= '<img src="'.$medium.'" alt="'.esc_attr($image['alt']).'">';
 										$return .= '</a></li>';
 										echo $return;
@@ -125,6 +126,16 @@ get_header( 'shop' ); ?>
 								// no rows found
 						endif;
 						?>
+					</div>
+
+					<div class="vartiations-popup js-var-popup">
+						<div class="vartiations-popup__overlay"></div>
+						<div class="vartiations-popup__body">
+							<div class="vartiations-popup__content">
+								<img class="js-var-popup-img" src="" alt="">
+								<button class="js-variations-close-popup m-product-popup__close"><?php echo __('Zamknij okno','maja'); ?></button>
+							</div>
+						</div>
 					</div>
 
 					<div class="m-product-bottom__section">
