@@ -1,11 +1,5 @@
 {
-    "name": "grzesiek/majalaptos-child",
-    "authors": [
-        {
-            "name": "grzesiek1owline",
-            "email": "39383343+grzesiek1owline@users.noreply.github.com"
-        }
-    ],
+    "name": "rydzkowski.g/majalaptos-child",
     "require": {
         "stoutlogic/acf-builder": "^1.9"
     }
