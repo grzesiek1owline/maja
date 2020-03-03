@@ -138,12 +138,14 @@
 					// no rows found
 			endif;
       ?>
-      <div class="js-var-custom-paging m-product-top__slider-nav m-h-only-mobile">
-        <div class="arrows">
-          <button class="arrows__btn arrows__btn--prev js-arrow-prev-var"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/arrow.png" alt="<?= __('Poprzedni Slajd','maja'); ?>"></button>
-          <button class="arrows__btn arrows__btn--next js-arrow-next-var"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/arrow2.png" alt="<?= __('Następny Slajd','maja'); ?>"></button>
-        </div>
-      </div>
+			<div class="m-h-only-mobile">
+				<div class="js-var-custom-paging m-product-top__slider-nav">
+					<div class="arrows">
+						<button class="arrows__btn arrows__btn--prev js-arrow-prev-var"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/arrow.png" alt="<?= __('Poprzedni Slajd','maja'); ?>"></button>
+						<button class="arrows__btn arrows__btn--next js-arrow-next-var"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/arrow2.png" alt="<?= __('Następny Slajd','maja'); ?>"></button>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<div class="vartiations-popup js-var-popup">
