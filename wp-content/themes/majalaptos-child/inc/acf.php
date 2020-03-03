@@ -26,10 +26,12 @@ $product
 				->endRepeater()
 
 		->addTab('product-slider', ['label' => 'Slajder'])
-			->addSelect('product-slider-type', ['label' => "Wybierz typ slajdera"])
-				->addChoices(['bg-duo' => 'Dwa zdjęcia'], ['bg' => 'Jedno zdjęcie'])
 				->addRepeater('product-slider-gallery', ['label' => 'Zdjęcia produktu', 'button_label' => 'Dodaj zdjęcie', 'layout' => 'row', 'min' => 1, 'max' => 15, 'required' => true])
-					->addImage('product-slider-gallery-img', ['label' => 'Zdjęcie'])
+				->addSelect('product-slider-type-slide', ['label' => "Wybierz typ slajdu"])
+					->addChoices(['bg-duo' => 'Dwa zdjęcia'], ['bg' => 'Jedno zdjęcie'])
+				->addImage('product-slider-gallery-img', ['label' => 'Zdjęcie', 'required' => true])
+				->addImage('product-slider-gallery-img-2', ['label' => 'Zdjęcie 2', 'required' => true])
+					->conditional('product-slider-type-slide', '==', 'bg-duo')
 				->endRepeater()
 
 		->addTab('product-variations', ['label' => 'Przykładowe Wykończenia'])

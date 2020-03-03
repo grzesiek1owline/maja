@@ -5,13 +5,12 @@
 		$id = $product->get_id();
 		$is_online = get_field('product-is-online', $id);
 		$desc_title = get_field('product-desc-title', $id);
-		$slider_type = get_field('product-slider-type', $id);
 		$variations_title = get_field('product-variations-title', $id);
 		$site_url = get_site_url();
 		$share_image = get_field('product-share-image', $id)
 ?>
 
-<div class="m-product-top m-product-top--<?php echo $slider_type; ?>">
+<div class="m-product-top js-prod-top">
   <div class="m-h-only-mobile product-info">
   <?php if($is_online) { ?>
 		<p class="m-product-short-info__label m-product-short-info__label--online">
@@ -40,15 +39,28 @@
 		</p>
   </div>
 
-	<div class="m-product-top__slider m-product-top__slider--<?php echo $slider_type; ?> js-slider-<?php echo $slider_type; ?>">
+	<div class="m-product-top__slider js-prod-slider">
 	<?php
 		if( have_rows('product-slider-gallery', $id) ):
 					while ( have_rows('product-slider-gallery', $id) ) : the_row();
 						$image = get_sub_field('product-slider-gallery-img', $id);
-						if( !empty( $image ) ){
-							$large = $image['sizes']['large'];
-							$return = '<div class="m-product-top__slider-item '.$slider_type.'">';
+						$slider_type = get_sub_field('product-slider-type-slide', $id);
+						$large = $image['sizes']['large'];
+						echo 'slider-type' . $slider_type;
+
+
+						if($slider_type == 'bg') {
+
+							$return = '<div data-type="'.$slider_type.'" div class="m-product-top__slider-item '.$slider_type.'">';
+							$return .= '<div class="m-product-top__slider-image-wrapper '.$slider_type.'"><img data-magnify-src="'.$image['url'].'" data-lazy="'.$large.'" alt="'.esc_attr($image['alt']).'"></div>';
+							$return .= '</div>';
+							echo $return;
+						} else {
+							$image2 = get_sub_field('product-slider-gallery-img-2', $id);
+							$large2 = $image2['sizes']['large'];
+							$return = '<div data-type="'.$slider_type.'" div class="m-product-top__slider-item '.$slider_type.'">';
 							$return .= '<div class="m-product-top__slider-image-wrapper '.$slider_type.'"><img class="js-zoom" data-magnify-src="'.$image['url'].'" data-lazy="'.$large.'" alt="'.esc_attr($image['alt']).'"></div>';
+							$return .= '<div class="m-product-top__slider-image-wrapper '.$slider_type.'"><img class="js-zoom" data-magnify-src="'.$image2['url'].'" data-lazy="'.$large2.'" alt="'.esc_attr($image2['alt']).'"></div>';
 							$return .= '</div>';
 							echo $return;
 						}
