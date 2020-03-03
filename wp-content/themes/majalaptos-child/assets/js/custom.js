@@ -1,5 +1,6 @@
 "use strict";
 
+// TODO: REmove this
 // jQuery('.js-slider-bg-duo').slick({
 // 	dots: true,
 // 	arrows: true,
@@ -24,31 +25,32 @@
 // 		return '<span>0' + (i + 1) + '</span>';
 // 	}
 // });
-jQuery('.js-prod-slider').slick({
-  dots: true,
-  arrows: true,
-  infinite: true,
-  // slidesToShow: 1,
-  // slidesToScroll: 1,
-  variableWidth: true,
-  prevArrow: jQuery('.js-arrow-prev'),
-  nextArrow: jQuery('.js-arrow-next'),
-  speed: 500,
-  fade: true,
-  cssEase: 'linear',
-  adaptiveHeight: true,
-  appendDots: jQuery('.custom-paging'),
-  customPaging: function customPaging(slider, i) {
-    return '<span>0' + (i + 1) + '</span>';
-  }
-});
-jQuery('.js-prod-slider').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-  var dat = jQuery(slick.$slides.get(nextSlide)).data('type');
-  console.log('class', dat);
-  jQuery('.js-prod-top').removeClass('m-product-top--bg');
-  jQuery('.js-prod-top').removeClass('m-product-top--bg-duo');
-  jQuery('.js-prod-top').addClass('m-product-top--' + dat);
-});
+// TODO: SLIDER
+// jQuery('.js-prod-slider').slick({
+// 	dots: true,
+// 	arrows: true,
+// 	infinite: true,
+// 	// slidesToShow: 1,
+// 	// slidesToScroll: 1,
+// 	variableWidth: true,
+// 	prevArrow: jQuery('.js-arrow-prev'),
+// 	nextArrow: jQuery('.js-arrow-next'),
+// 	speed: 500,
+//   fade: true,
+//   cssEase: 'linear',
+// 	adaptiveHeight: true,
+// 	appendDots: jQuery('.custom-paging'),
+// 	customPaging: function customPaging(slider, i) {
+// 		return '<span>0' + (i + 1) + '</span>';
+// 	}
+// });
+// jQuery('.js-prod-slider').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+// 	const dat = jQuery(slick.$slides.get(nextSlide)).data('type');
+// 	console.log('class', dat);
+// 	jQuery('.js-prod-top').removeClass('m-product-top--bg');
+// 	jQuery('.js-prod-top').removeClass('m-product-top--bg-duo');
+// 	jQuery('.js-prod-top').addClass('m-product-top--' + dat);
+// });
 jQuery('.js-variations').slick({
   dots: true,
   arrows: true,
