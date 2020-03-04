@@ -30,7 +30,10 @@ $product
 				->addSelect('product-slider-type-slide', ['label' => "Wybierz typ slajdu"])
 					->addChoices(['bg-duo' => 'Dwa zdjęcia'], ['bg' => 'Jedno zdjęcie'])
 				->addImage('product-slider-gallery-img', ['label' => 'Zdjęcie', 'required' => true])
+				->addTrueFalse('product-slider-gallery-img-type-1', ['label' => 'Typ zdjęcia', 'instructions' => 'Zaznacz jeśli zdjęcie ma zajmować całą przestrzeń slajdu, jako tło.'])
 				->addImage('product-slider-gallery-img-2', ['label' => 'Zdjęcie 2', 'required' => true])
+					->conditional('product-slider-type-slide', '==', 'bg-duo')
+				->addTrueFalse('product-slider-gallery-img-type-2', ['label' => 'Typ zdjęcia', 'instructions' => 'Zaznacz jeśli zdjęcie ma zajmować całą przestrzeń slajdu, jako tło.'])
 					->conditional('product-slider-type-slide', '==', 'bg-duo')
 				->endRepeater()
 

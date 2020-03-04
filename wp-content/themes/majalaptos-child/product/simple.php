@@ -46,21 +46,31 @@
 						$image = get_sub_field('product-slider-gallery-img', $id);
 						$slider_type = get_sub_field('product-slider-type-slide', $id);
 						$large = $image['sizes']['large'];
-						echo 'slider-type' . $slider_type;
 
+						$size1 = get_sub_field('product-slider-gallery-img-type-1');
+						$size2 = get_sub_field('product-slider-gallery-img-type-2');
+						$sizeClass1 = 'product-size';
+						$sizeClass2 = 'product-size';
+
+						if($size1) {
+							$sizeClass1 = 'bg-size';
+						}
+						if($size2) {
+							$sizeClass2 = 'bg-size';
+						}
 
 						if($slider_type == 'bg') {
 
 							$return = '<div data-type="'.$slider_type.'" div class="m-product-top__slider-item '.$slider_type.'">';
-							$return .= '<div class="m-product-top__slider-image-wrapper '.$slider_type.'"><img data-magnify-src="'.$image['url'].'" data-lazy="'.$large.'" alt="'.esc_attr($image['alt']).'"></div>';
+							$return .= '<div class="'.$sizeClass1.' m-product-top__slider-image-wrapper '.$slider_type.'"><img data-magnify-src="'.$image['url'].'" data-lazy="'.$large.'" alt="'.esc_attr($image['alt']).'"></div>';
 							$return .= '</div>';
 							echo $return;
 						} else {
 							$image2 = get_sub_field('product-slider-gallery-img-2', $id);
 							$large2 = $image2['sizes']['large'];
 							$return = '<div data-type="'.$slider_type.'" div class="m-product-top__slider-item '.$slider_type.'">';
-							$return .= '<div class="m-product-top__slider-image-wrapper '.$slider_type.'"><img class="js-zoom" data-magnify-src="'.$image['url'].'" data-lazy="'.$large.'" alt="'.esc_attr($image['alt']).'"></div>';
-							$return .= '<div class="m-product-top__slider-image-wrapper '.$slider_type.'"><img class="js-zoom" data-magnify-src="'.$image2['url'].'" data-lazy="'.$large2.'" alt="'.esc_attr($image2['alt']).'"></div>';
+							$return .= '<div class="'.$sizeClass1.' m-product-top__slider-image-wrapper '.$slider_type.'"><img class="js-zoom" data-magnify-src="'.$image['url'].'" data-lazy="'.$large.'" alt="'.esc_attr($image['alt']).'"></div>';
+							$return .= '<div class="'.$sizeClass2.' m-product-top__slider-image-wrapper '.$slider_type.'"><img class="js-zoom" data-magnify-src="'.$image2['url'].'" data-lazy="'.$large2.'" alt="'.esc_attr($image2['alt']).'"></div>';
 							$return .= '</div>';
 							echo $return;
 						}
@@ -71,7 +81,7 @@
 		?>
 	</div>
 
-	<div class="m-product-short-info">
+	<div class="m-product-short-info js-short-info">
 	<!-- PRODUCT EXCERPT -->
     <div class="m-h-only-desktop">
     <?php if($is_online) { ?>

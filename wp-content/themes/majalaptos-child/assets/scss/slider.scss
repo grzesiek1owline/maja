@@ -1,0 +1,150 @@
+.m-product-top {
+  &__slider {
+		position: absolute !important;
+		width: 100%;
+		height: 100%;
+    z-index: 6;
+
+		@media all and (max-width: 992px) {
+			position: relative !important;
+			height: 450px;
+
+			&::after {
+				content: "";
+				pointer-events: none;
+				width: 64px;
+				height: 64px;
+				background-image: url('../img/image-zoom.png');
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				display: block;
+				position: absolute;
+				left: 50%;
+				margin-left: -32px;
+				bottom: 0;
+			}
+		}
+
+		@media all and (max-width: 768px) {
+			height: 400px;
+		}
+	}
+
+	&__slider-item {
+		box-sizing: border-box;
+		transition: all 200ms ease;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+
+    &.bg-duo {
+      justify-content: space-between;
+    }
+
+		& > img {
+			width: 100%;
+		}
+
+	}
+
+	&__slider-image-wrapper {
+		width: 100%;
+		height: 100%;
+		display: block;
+		overflow: hidden;
+    position: relative;
+
+    &.bg {
+      width: 66vw;
+
+      @media all and(max-width:992px) {
+        width: 100vw;
+      }
+    }
+
+    &.bg-duo {
+      width: 33vw;
+
+      &:first-of-type {
+        @media all and(max-width:992px) {
+          display: none !important;
+        }
+      }
+
+      @media all and(max-width:992px) {
+        width: 100vw;
+      }
+    }
+
+    &.product-size {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+		& > img {
+			object-fit: cover;
+			width: 100%;
+			height: auto;
+			min-height: 100%;
+    }
+
+    &.product-size > img {
+      width: 90%;
+      min-height: 0;
+    }
+	}
+
+  &__slider-nav {
+		position: relative;
+		padding: 0 30px;
+		display: inline-block !important;
+		margin-top: 50px;
+		box-sizing: border-box;
+
+		// @media all and (max-width: 992px) {
+		// 	position: absolute;
+		// 	top: 0;
+		// 	margin-top: 0;
+		// 	left: 20%;
+		// 	width: 60%;
+		// }
+
+		// @media all and (max-width: 768px) {
+		// 	width: 96%;
+		// 	left: 2%;
+		// 	padding: 0 3%;
+		// }
+
+		& .slick-dots {
+			position: static;
+			bottom: 0;
+			margin-top: 30px;
+			color: #acaaaa;
+			font-size: 15px;
+			font-weight: 300;
+			letter-spacing: 3.06px;
+			line-height: 1;
+
+			& li {
+				box-sizing: border-box;
+				margin: 0 10px;
+
+				&.slick-active {
+					color: #000000;
+				}
+			}
+
+			& > li span {
+				color: inherit;
+				font-weight: inherit;
+				letter-spacing: inherit;
+				font-size: inherit;
+				white-space: nowrap;
+			}
+    }
+  }
+}
