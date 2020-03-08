@@ -42,6 +42,48 @@ $product
 			->addRepeater('product-variations-gallery', ['label' => 'Przykładowe zdjęcia', 'button_label' => 'Dodaj zdjęcie', 'layout' => 'row', 'min' => 1, 'max' => 10])
 			->addImage('product-variations-gallery-img', ['label' => 'Zdjęcie']);
 
+
 add_action('acf/init', function() use ($product) {
    acf_add_local_field_group($product->build());
+});
+
+//
+
+acf_add_options_page([
+	'page_title' => get_bloginfo('name') . ' Opcje',
+	'menu_title' => 'Opcje strony',
+	'menu_slug'  => 'theme-options',
+	'capability' => 'edit_theme_options',
+	'position'   => '999',
+	'autoload'   => true
+]);
+
+$options = new StoutLogic\AcfBuilder\FieldsBuilder('options', ['title' => 'Opcje']);
+
+$options
+		->setLocation('options_page', '==', 'theme-options');
+
+		$options
+				->addImage('footer-brand', ['label' => 'Logo w  stopce'])
+				->addText('col-1-title', ['label' => 'Tytuł kolumny 1'])
+				->addWysiwyg('col-1-content')
+				->addRepeater('social-list', ['label' => 'Profile w Social Media', 'button_label' => 'Dodaj', 'layout' => 'row'])
+					->addImage('social-img', ['label' => 'Ikona'])
+					->addUrl('social-url', ['label' => 'Link do profilu'])
+				->endRepeater()
+				->addText('col-2-title', ['label' => 'Tytuł kolumny 2'])
+				->addRepeater('col-2-menu', ['label' => 'Menu w  kolumnie 2', 'button_label' => 'Dodaj Link', 'layout' => 'row'])
+					->addLink('col-menu-item', ['label' => 'Dodaj link'])
+				->endRepeater()
+				->addText('col-3-title', ['label' => 'Tytuł kolumny 3'])
+				->addRepeater('col-3-menu', ['label' => 'Menu w  kolumnie 3', 'button_label' => 'Dodaj Link', 'layout' => 'row'])
+					->addLink('col-menu-item', ['label' => 'Dodaj link'])
+				->endRepeater()
+				->addText('col-4-title', ['label' => 'Tytuł kolumny 4'])
+				->addWysiwyg('col-4-content')
+				->addLink('col-4-url', ['label' => 'Link pod tekstem'])
+				->addTextarea('copy', ['label' => 'Copyrights text']);
+
+add_action('acf/init', function() use ($options) {
+	acf_add_local_field_group($options->build());
 });

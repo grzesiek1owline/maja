@@ -157,6 +157,23 @@ body.post-type-archive .site-main{padding:0 40px !important;-webkit-box-sizing:b
 #sidebar{display:none !important}
 .cz_cart{position:static}
 .cz_cart_count{color:#fff !important;position:absolute;top:0 !important;right:unset !important;left:30px !important}
+.copy{font-size:16px}
+.m-footer__col-desc{letter-spacing:normal !important;line-height:1.665;margin-bottom:35px}
+.m-footer__col-desc a,.m-footer__col-desc p{letter-spacing:normal}
+.m-footer__col-desc a{word-wrap:none;white-space:nowrap}
+.m-footer__col-title{font-size:20px;font-weight:600;letter-spacing:3px;text-transform:uppercase;margin-bottom:10px}
+.m-footer__col-url{font-size:16px;font-weight:bold;text-decoration:underline}
+.m-footer{background-color:#fff;padding-top:20px}
+.m-footer ul{list-style-type:none}
+.m-footer__bottom{border-top:1px solid #000;padding:30px 0 100px}
+.m-footer__brand{width:220px;height:auto;margin-bottom:25px;margin-top:20px}
+.m-footer__menu{list-style-type:none;padding:0;margin:0}
+.m-footer__menu-url{text-transform:capitalize}
+.m-footer__wrapper{display:grid;grid-template-rows:auto;grid-template-columns:1fr 1fr 1fr 1fr;gap:80px;padding-bottom:30px}
+.m-footer-socials{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-ms-flex-align:center;align-items:center;list-style-type:none;padding:0;margin:0}
+.m-footer-socials>li{width:26px;margin-right:10px;-webkit-transition:all 200ms ease;transition:all 200ms ease}
+.m-footer-socials>li:hover{opacity:.8}
+.m-footer-socials>li img{width:100%;height:auto}
 @media all and (min-width:992px){.m-h-only-desktop{display:block}
 .m-h-only-mobile{display:none}
 }@media(max-width:4000px){.not-scroll-product-title{margin-top:-48vh}
@@ -196,6 +213,7 @@ body.post-type-archive .site-main{padding:0 40px !important;-webkit-box-sizing:b
 .m-product-popup__content{width:100%;height:auto;padding-bottom:40px;text-align:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:40px 50px}
 .m-product-popup__image{width:100%;height:250px}
 .m-product-popup__image>img{max-height:100%;margin:0 auto}
+.m-footer__wrapper{grid-template-columns:1fr 1fr;gap:60px}
 }@media only screen and (max-width:800px){.first-bg-paralax{background-image:url("http://maja.local/wp-content/uploads/2020/01/baner-1-mobile.jpg") !important}
 }@media(max-width:768px){.wpb_button,.wpb_content_element,ul.wpb_thumbnails-fluid>li{margin-bottom:0}
 .no-mobile{display:none}
@@ -214,6 +232,10 @@ table.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents{font
 .vartiations-popup__content{padding:20px 0}
 .m-product-popup__content{padding:20px 0}
 .cz_cart_count{left:35px !important;top:0 !important}
+.m-footer__bottom{text-align:center}
+.m-footer__brand{margin:20px auto 25px}
+.m-footer__wrapper{grid-template-columns:1fr;gap:40px;text-align:center}
+.m-footer-socials{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 }@media only screen and (max-width:640px){.bottom-mobile-panel{display:-webkit-box;display:-ms-flexbox;display:flex}
 }@-webkit-keyframes fadeInFromNone{0%{opacity:0}
 100%{opacity:1}
