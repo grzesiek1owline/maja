@@ -138,6 +138,11 @@
 
 <div class="m-product-bottom">
 	<div class="row m-product-bottom__row">
+		<?php
+			$hasVariants = get_field('has-product-variations', $id);
+			if($hasVariants){
+		?>
+
 		<div class="m-product-bottom__section">
 			<h2 class="m-h2 m-product-bottom__section-title"><?= $variations_title ?></h2>
 			<?php
@@ -169,7 +174,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="vartiations-popup js-var-popup">
 			<div class="vartiations-popup__overlay"></div>
 			<div class="vartiations-popup__body">
@@ -179,6 +183,7 @@
 				</div>
 			</div>
 		</div>
+		<?php } ?>
 
 		<div class="m-product-bottom__section">
 			<h2 class="m-h2 m-product-bottom__section-title"><?= $desc_title ?></h2>
