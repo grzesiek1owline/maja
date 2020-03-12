@@ -36,8 +36,8 @@ $product
 				->addTrueFalse('product-slider-gallery-img-type-2', ['label' => 'Typ zdjęcia', 'instructions' => 'Zaznacz jeśli zdjęcie ma zajmować całą przestrzeń slajdu, jako tło.'])
 					->conditional('product-slider-type-slide', '==', 'bg-duo')
 				->endRepeater()
-		->addTrueFalse('has-product-variations', ['label' => 'Czy chcesz pokazać możliwe warianty wykończenia?', 'instructions' => 'Zaznacz jeśli TAK.'])
 		->addTab('product-variations', ['label' => 'Przykładowe Wykończenia'])
+			->addTrueFalse('has-product-variations', ['label' => 'Czy chcesz pokazać możliwe warianty wykończenia?', 'instructions' => 'Zaznacz jeśli TAK.'])
 			->addText('product-variations-title', ['label' => 'Tytuł sekcji', 'required' => true, 'default_value' => 'Przykładowe wykończenia'])
 			->addRepeater('product-variations-gallery', ['label' => 'Przykładowe zdjęcia', 'button_label' => 'Dodaj zdjęcie', 'layout' => 'row', 'min' => 1, 'max' => 10])
 			->addImage('product-variations-gallery-img', ['label' => 'Zdjęcie']);
