@@ -199,9 +199,13 @@ a[href*="tel"] {
 }
 
 // PRODUCT PAGE
-
+.woocommerce ul.products li.product .button[class*="product_type_"]{
+	color: #555 !important;
+}
 // -- CONTENT
-
+.error404 form button {
+	background-color: #fff !important;
+}
 // -- ADDONS
 .m-addons {
 	list-style: none;
@@ -472,7 +476,7 @@ a[href*="tel"] {
 	// align-items: stretch;
 	z-index: 5;
 	overflow: hidden;
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 	transition: all 200ms ease;
 	min-height: 800px;
 	min-height: calc(100vh - 120px);
@@ -480,7 +484,7 @@ a[href*="tel"] {
 	@media all and (max-width: 992px) {
 		flex-wrap: wrap;
 		margin-top: 0;
-		margin-bottom: 60px;
+		margin-bottom: 40px;
 	}
 
 	// &--bg {
@@ -520,10 +524,12 @@ a[href*="tel"] {
 	align-items: start;
 	list-style: none;
 	padding-top: 10px;
+	margin: 0;
+	height: 200px;
 
   &__item {
 		padding: 0 25px;
-		height: 200px;
+		height: 100%;
 
 		& a {
 			display: block;
@@ -535,7 +541,22 @@ a[href*="tel"] {
 			display: block;
 			margin: 0 auto;
 			object-fit: cover;
+			max-height: 100%;
 		}
+	}
+
+	&.slick-slider .slick-track,
+	&.slick-slider .slick-list {
+		height: 100%;
+
+		&::before,
+		&::after {
+			display: none;
+		}
+	}
+
+	& .draggable {
+		width: 100%;
 	}
 }
 

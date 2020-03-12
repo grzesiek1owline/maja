@@ -55,7 +55,6 @@ jQuery('.js-variations').slick({
 	prevArrow: jQuery('.js-arrow-prev-var'),
 	nextArrow: jQuery('.js-arrow-next-var'),
 	speed: 500,
-	lazyLoad: 'ondemand',
 	appendDots: jQuery('.js-var-custom-paging'),
 	responsive: [{
 			breakpoint: 1024,
