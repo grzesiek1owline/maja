@@ -401,10 +401,13 @@ a[href*="tel"] {
 		right: unset !important;
 		opacity: 1 !important;
 		transform: unset !important;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
 	}
 
 	@media all and (max-width: 768px) {
-		padding: 40px 20px 40px;
+		padding: 10px 20px 40px;
 	}
 
   &__price {
@@ -417,6 +420,10 @@ a[href*="tel"] {
 
   &__share {
 		list-style: none;
+
+		@media all and (max-width: 992px) {
+			order: 3;
+		}
 	}
 
   &__share-item {
@@ -445,6 +452,10 @@ a[href*="tel"] {
 			text-decoration: underline;
 			font-weight: 500;
 			font-size: 14px;
+		}
+
+		@media all and (max-width: 992px) {
+			order: 2;
 		}
 	}
 
@@ -772,7 +783,7 @@ a[href*="tel"] {
 	display: block;
 
 	&.product-info {
-		padding: 0 20px 40px;
+		padding: 0 20px 30px;
 		text-align: center;
 	}
 

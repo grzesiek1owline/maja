@@ -9,21 +9,21 @@
 			position: relative !important;
 			height: 450px;
 
-			&::after {
-				content: "";
-				pointer-events: none;
-				width: 64px;
-				height: 64px;
-				background-image: url('../img/image-zoom.png');
-				background-repeat: no-repeat;
-				background-size: cover;
-				background-position: center;
-				display: block;
-				position: absolute;
-				left: 50%;
-				margin-left: -32px;
-				bottom: 0;
-			}
+			// &::after {
+			// 	content: "";
+			// 	pointer-events: none;
+			// 	width: 64px;
+			// 	height: 64px;
+			// 	background-image: url('../img/image-zoom.png');
+			// 	background-repeat: no-repeat;
+			// 	background-size: cover;
+			// 	background-position: center;
+			// 	display: block;
+			// 	position: absolute;
+			// 	left: 50%;
+			// 	margin-left: -32px;
+			// 	bottom: 0;
+			// }
 		}
 
 		@media all and (max-width: 768px) {
@@ -105,19 +105,11 @@
 		margin-top: 50px;
 		box-sizing: border-box;
 
-		// @media all and (max-width: 992px) {
-		// 	position: absolute;
-		// 	top: 0;
-		// 	margin-top: 0;
-		// 	left: 20%;
-		// 	width: 60%;
-		// }
-
-		// @media all and (max-width: 768px) {
-		// 	width: 96%;
-		// 	left: 2%;
-		// 	padding: 0 3%;
-		// }
+		@media all and (max-width: 992px) {
+			order: 1;
+			margin-bottom: 25px;
+			margin-top: 10px;
+		}
 
 		& .slick-dots {
 			position: static;
@@ -147,4 +139,10 @@
 			}
     }
   }
+}
+
+.slick-dotted.slick-slider {
+	@media all and (max-width: 992px) {
+		margin-bottom: 10px;
+	}
 }

@@ -2,13 +2,13 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' );?>" />
-	<meta name="viewport" content="width=device-width, initial-scale=0.9, minimum-scale=1.0"/>
+	<meta name="viewport" content="width=device-width, initial-scale=0.9"/>
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 
-			<div class="bottom-mobile-panel">
+			<!-- <div class="bottom-mobile-panel">
 		<a href="tel:+48664778941" class="bmp--box">
 			<img class="bmp--img" src="<?php echo get_stylesheet_directory_uri() . '/assets/img/zadzwon.png'; ?>" alt="zadzwon">
 			<p>Zadzwoń</p>
@@ -21,7 +21,7 @@
 			<img class="bmp--img" src="<?php echo get_stylesheet_directory_uri() . '/assets/img/sygnet-maja-laptos-png8.png'; ?>" alt="kolekcja-poduszek">
 			<p>Kolekcje</p>
 		</a>
-	</div>
+	</div> -->
 
 	<div id="intro" <?php echo Codevz_Theme::intro_attrs(); ?>></div>
 
