@@ -181,6 +181,7 @@ body.post-type-archive .site-main{padding:0 40px !important;-webkit-box-sizing:b
 .m-footer-socials>li{width:26px;margin-right:10px;-webkit-transition:all 200ms ease;transition:all 200ms ease}
 .m-footer-socials>li:hover{opacity:.8}
 .m-footer-socials>li img{width:100%;height:auto}
+.bottom-mobile-panel{display:none !important}
 @media all and (min-width:992px){.m-h-only-desktop{display:block}
 .m-h-only-mobile{display:none}
 }@media(max-width:4000px){.not-scroll-product-title{margin-top:-48vh}
